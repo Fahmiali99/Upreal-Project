@@ -26,30 +26,6 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="container d-flex align-items-center mb-5">
-        <div class="row h-100 d-flex align-items-center">
-          <div class="col-sm-6">
-            <div class="card-body d-flex justify-content-center">
-              <img src="/assets/img/home/baner.svg" alt="" width="70%" />
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card-body">
-              <h1 class="card-title">About Us</h1>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                adipisci aliquam dolorem necessitatibus consequuntur numquam rem
-                totam nesciunt! Illum suscipit corrupti accusamus, ea asperiores
-                cupiditate nihil vero dicta distinctio voluptatum.
-              </p>
-              <a href="#" class="btn btn-primary">
-                I'm Order
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="container">
         <h2 class="text-center">Jasa yang tersedia</h2>
         <p class="text-center">
