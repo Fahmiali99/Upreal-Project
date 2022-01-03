@@ -6,8 +6,8 @@ export default function Navbar() {
       <nav class=" navbar navbar-expand-md bg-dark navbar-dark">
         <div className="container">
           <div className="container">
-            <a class=" navbar-brand" href="#">
-              Navbar
+            <a class=" navbar-brand font-weight-bold font-italic" href="#">
+              UPREAL
             </a>
 
             <button
