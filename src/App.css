@@ -40,4 +40,8 @@ p {
   .tinggi {
     height: auto;
   }
+
+  .clearfix {
+    width: 100%;
+  }
 }
