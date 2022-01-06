@@ -3,42 +3,42 @@ import React from "react";
 export default function Navbar() {
   return (
     <div>
-      <nav class=" navbar navbar-expand-md bg-dark navbar-dark">
+      <nav className=" navbar navbar-expand-md bg-dark navbar-dark ">
         <div className="container">
           <div className="container">
-            <a class=" navbar-brand fw-bold fs-4 font-italic" href="#">
+            <a className=" navbar-brand fw-bold fs-4 font-italic" href="#">
               UPREAL
             </a>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
           </div>
 
-          <div class=" collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav d-flex align-items-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+          <div className=" collapse navbar-collapse" id="collapsibleNavbar">
+            <ul className="navbar-nav d-flex align-items-center">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/About">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Blog
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Contact
                 </a>
               </li>
