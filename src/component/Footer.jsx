@@ -110,7 +110,7 @@ const Footer = () => {
                 className="text-white"
                 role="button"
               >
-                <i className="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f mr-2"></i>
               </a>
 
               <a
@@ -118,7 +118,7 @@ const Footer = () => {
                 className="text-white"
                 role="button"
               >
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-twitter mr-2"></i>
               </a>
 
               <a
@@ -126,7 +126,7 @@ const Footer = () => {
                 className="text-white"
                 role="button"
               >
-                <i className="fab fa-google"></i>
+                <i className="fab fa-google mr-2"></i>
               </a>
 
               <a
@@ -134,7 +134,7 @@ const Footer = () => {
                 className="text-white"
                 role="button"
               >
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-instagram mr-2"></i>
               </a>
             </div>
           </div>
