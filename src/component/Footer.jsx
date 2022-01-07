@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer w-100 bg-warning ">
       <div className="container p-4 pb-0">
         <section className="">
-          <div className="row no-gutters-none">
+          <div className="row g-0">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white text-decoration-none">
                 Company name
@@ -18,7 +18,7 @@ const Footer = () => {
               />
             </div>
 
-            <hr className="w-100  d-md-none" />
+            <hr className="w-100   d-md-none" />
 
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
