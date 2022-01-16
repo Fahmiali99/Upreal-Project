@@ -6,11 +6,6 @@ function SectionTwo() {
       <div className="container text-center  pt-5 pb-5 mb-3">
         <div className="row">
           <div className="col-sm d-flex align-items-center justify-content-center">
-            <div className="container">
-              <img src="/assets/img/about/sec2.svg" alt="" width="70%" />
-            </div>
-          </div>
-          <div className="col-sm d-flex align-items-center justify-content-center">
             <div className="container w-100">
               <div>
                 <h2 className="text-left">Tentang Kami</h2>
@@ -24,6 +19,11 @@ function SectionTwo() {
                   essentially unchanged.
                 </p>
               </div>
+            </div>
+          </div>
+          <div className="col-sm d-flex align-items-center justify-content-center">
+            <div className="container">
+              <img src="/assets/img/about/sec2.svg" alt="" width="70%" />
             </div>
           </div>
         </div>
