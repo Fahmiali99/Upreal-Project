@@ -30,6 +30,11 @@ p {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.icon-sosmed-ceo {
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+
 @media only screen and (max-width: 900px) {
   .tinggi {
     height: auto;

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer w-100 bg-warning ">
+    <div className="footer w-100 bg-dark ">
       <div className="container p-4 pb-0">
         <section className="">
           <div className="row g-0">
@@ -12,7 +12,7 @@ const Footer = () => {
               </h6>
               <img
                 className="w-100 text-center"
-                src="/assets/img/upreal.png"
+                src="/assets/img/upreal-white.png"
                 alt=""
                 width="100%"
               />
@@ -70,18 +70,18 @@ const Footer = () => {
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
                 Contact
               </h6>
-              <p>
+              <p className="text-white">
                 <i className="fas fa-home mr-3 text-white"></i> New York, NY
                 10012, US
               </p>
-              <p>
+              <p className="text-white">
                 <i className="fas fa-envelope mr-3 text-white"></i>{" "}
                 info@gmail.com
               </p>
-              <p>
+              <p className="text-white">
                 <i className="fas fa-phone mr-3 text-white"></i> + 01 234 567 88
               </p>
-              <p>
+              <p className="text-white">
                 <i className="fas fa-print mr-3 text-white"></i> + 01 234 567 89
               </p>
             </div>
