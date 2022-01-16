@@ -3,7 +3,7 @@ import React from "react";
 function SectionTwo() {
   return (
     <div className="aboutpage-2">
-      <div className="container text-center bg-light pt-5 pb-5 mb-3">
+      <div className="container text-center  pt-5 pb-5 mb-3">
         <div className="row">
           <div className="col-sm d-flex align-items-center justify-content-center">
             <div className="container">

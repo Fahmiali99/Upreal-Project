@@ -16,7 +16,7 @@ function SectionThree() {
           <div class="col-sm text-left d-flex align-items-center">
             <div className="container ">
               <div>
-                <h2> Mekki Patria</h2>
+                <h2> Mekki Patria Darmawan </h2>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -24,13 +24,22 @@ function SectionThree() {
                 </p>
 
                 <div>
-                  <a className="icon-sosmed-ceo" href="#">
+                  <a
+                    className="icon-sosmed-ceo"
+                    href="https://www.instagram.com/mekkipat/"
+                  >
                     <i class="fab fa-instagram-square"></i>
                   </a>
-                  <a className="icon-sosmed-ceo" href="#">
+                  <a
+                    className="icon-sosmed-ceo"
+                    href="https://www.facebook.com/mekki.patriadarmawan"
+                  >
                     <i class="fab fa-facebook-square"></i>
                   </a>
-                  <a className="icon-sosmed-ceo" href="#">
+                  <a
+                    className="icon-sosmed-ceo"
+                    href="https://twitter.com/MDarmawa"
+                  >
                     <i class="fab fa-twitter-square"></i>
                   </a>
                 </div>
