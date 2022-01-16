@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar() {
   return (
     <div>
       <nav className=" navbar navbar-expand-md bg-dark navbar-dark ">
@@ -23,14 +24,15 @@ export default function Navbar() {
           <div className=" collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav d-flex align-items-center">
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="/About">
+                <Link className="nav-link" to="/About">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -49,3 +51,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;

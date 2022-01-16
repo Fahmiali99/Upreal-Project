@@ -94,12 +94,12 @@ const Footer = () => {
           <div className="row d-flex align-items-center">
             <div className="col-md-7 col-lg-8 text-center text-md-start">
               <div className="p-3 text-white">
-                © 2020 Copyright:
+                © 2021 Copyright:
                 <a
                   className="text-white text-decoration-none"
-                  href="https://mdbootstrap.com/"
+                  href="https://fahmiali.netlify.app/"
                 >
-                  MDBootstrap.com
+                  FAL
                 </a>
               </div>
             </div>
@@ -133,6 +133,7 @@ const Footer = () => {
                 className="btn btn-outline-light btn-floating m-1"
                 className="text-white"
                 role="button"
+                href="https://www.instagram.com/mekkipat/"
               >
                 <i className="fab fa-instagram mr-2"></i>
               </a>
