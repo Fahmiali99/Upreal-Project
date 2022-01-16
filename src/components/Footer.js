@@ -18,77 +18,63 @@ const Footer = () => {
               />
             </div>
 
-            <hr className="w-100   d-md-none" />
+            <hr className="w-100 bg-secondary  d-md-none" />
 
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
                 Products
               </h6>
               <p>
-                <a className="text-white text-decoration-none">MDBootstrap</a>
+                <a className="text-white text-decoration-none">Logo Design</a>
               </p>
               <p>
-                <a className="text-white text-decoration-none">MDWordPress</a>
+                <a className="text-white text-decoration-none">Flyer design</a>
               </p>
               <p>
-                <a className="text-white text-decoration-none">BrandFlow</a>
+                <a className="text-white text-decoration-none">Poster design</a>
               </p>
               <p>
                 <a className="text-white text-decoration-none">
-                  Bootstrap Angular
+                  Instagram feed design
                 </a>
               </p>
             </div>
 
-            <hr className="w-100  d-md-none" />
+            <hr className="w-100 bg-secondary   d-md-none" />
 
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                Useful links
+                About
               </h6>
               <p>
-                <a className="text-white text-decoration-none">Your Account</a>
-              </p>
-              <p>
                 <a className="text-white text-decoration-none">
-                  Become an Affiliate
+                  Anda dapat menemukan banyak jasa di sini
                 </a>
-              </p>
-              <p>
-                <a className="text-white text-decoration-none">
-                  Shipping Rates
-                </a>
-              </p>
-              <p>
-                <a className="text-white text-decoration-none">Help</a>
               </p>
             </div>
 
-            <hr className="w-100  d-md-none" />
+            <hr className="w-100 bg-secondary   d-md-none" />
 
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
                 Contact
               </h6>
               <p className="text-white">
-                <i className="fas fa-home mr-3 text-white"></i> New York, NY
-                10012, US
+                <i className="fas fa-home mr-3 text-white"></i> Sumbersari,
+                Jember
               </p>
               <p className="text-white">
-                <i className="fas fa-envelope mr-3 text-white"></i>{" "}
-                info@gmail.com
+                <i className="fas fa-envelope mr-3 text-white"></i>
+                mekkipatria@gmail.com
               </p>
               <p className="text-white">
-                <i className="fas fa-phone mr-3 text-white"></i> + 01 234 567 88
-              </p>
-              <p className="text-white">
-                <i className="fas fa-print mr-3 text-white"></i> + 01 234 567 89
+                <i className="fas fa-phone mr-3 text-white"></i> +6281252188672
               </p>
             </div>
           </div>
         </section>
 
-        <hr className="my-3" />
+        <hr className="my-3 bg-secondary " />
 
         <section className="p-3 pt-0">
           <div className="row d-flex align-items-center">
@@ -105,6 +91,14 @@ const Footer = () => {
             </div>
 
             <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <a
+                className="btn btn-outline-light btn-floating m-1"
+                className="text-white"
+                role="button"
+                href="https://www.instagram.com/uprealhomecreative/"
+              >
+                <i className="fab fa-instagram mr-2"></i>
+              </a>
               <a
                 className="btn btn-outline-light btn-floating m-1"
                 className="text-white"
@@ -127,15 +121,6 @@ const Footer = () => {
                 role="button"
               >
                 <i className="fab fa-google mr-2"></i>
-              </a>
-
-              <a
-                className="btn btn-outline-light btn-floating m-1"
-                className="text-white"
-                role="button"
-                href="https://www.instagram.com/mekkipat/"
-              >
-                <i className="fab fa-instagram mr-2"></i>
               </a>
             </div>
           </div>
