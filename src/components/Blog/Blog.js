@@ -1,9 +1,12 @@
 import React from "react";
+import SectionBlogOne from "./SectionBlogOne";
+import SectionBlogTwo from "./SectionBlogTwo";
 
 function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
+      <SectionBlogOne />
+      <SectionBlogTwo />
     </div>
   );
 }
