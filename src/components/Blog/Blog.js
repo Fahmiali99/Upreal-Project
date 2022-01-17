@@ -1,5 +1,6 @@
 import React from "react";
 import SectionBlogOne from "./SectionBlogOne";
+import SectionBlogThree from "./SectionBlogThree";
 import SectionBlogTwo from "./SectionBlogTwo";
 
 function Blog() {
@@ -7,6 +8,7 @@ function Blog() {
     <div>
       <SectionBlogOne />
       <SectionBlogTwo />
+      <SectionBlogThree />
     </div>
   );
 }
