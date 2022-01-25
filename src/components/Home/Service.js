@@ -4,15 +4,15 @@ const Service = () => {
   return (
     <div>
       <div className="container">
-        <h2 class="text-center">Jasa yang tersedia</h2>
-        <p class="text-center">
+        <h2 className="text-center">Jasa yang tersedia</h2>
+        <p className="text-center">
           Anda dapat memilih jasa yang tersedia di UPREAL
         </p>
 
         <div className="container mb-5">
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa1.png" alt="" width="50%" />
                 </div>
@@ -25,7 +25,7 @@ const Service = () => {
               </div>
             </div>
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa2.png" alt="" width="50%" />
                 </div>
@@ -38,7 +38,7 @@ const Service = () => {
               </div>
             </div>
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa3.png" alt="" width="50%" />
                 </div>
@@ -51,7 +51,7 @@ const Service = () => {
               </div>
             </div>
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa4.png" alt="" width="50%" />
                 </div>
@@ -64,7 +64,7 @@ const Service = () => {
               </div>
             </div>
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa5.png" alt="" width="50%" />
                 </div>
@@ -77,7 +77,7 @@ const Service = () => {
               </div>
             </div>
             <div className="col">
-              <div class="card h-100 card-kegiatan">
+              <div className="card h-100 card-kegiatan">
                 <div className="container text-center p-3 color-content">
                   <img src="/assets/img/home/fa6.png" alt="" width="50%" />
                 </div>
