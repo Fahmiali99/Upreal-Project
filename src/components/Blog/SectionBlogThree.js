@@ -1,8 +1,10 @@
 import React from "react";
+import CustomArrows from "./CustomArrows";
+// import MultipleItems from "./MultipleItems";
 
 function SectionBlogThree() {
   return (
-    <div className="pageabout-3">
+    <div className="pageabout-3 bg-light">
       <div class="padding-y-xxl position-relative  pt-5 pb-5 z-index-1">
         <div class="container max-width-adaptive-sm position-relative z-index-2">
           <div class="text-component margin-bottom-sm  pt-5 text-center">
@@ -15,7 +17,9 @@ function SectionBlogThree() {
             </p>
           </div>
 
-          <div class="container pt-3"></div>
+          <div class="container pt-3">
+            <CustomArrows />
+          </div>
         </div>
       </div>
     </div>
