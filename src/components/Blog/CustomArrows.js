@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LeftArrow from "../assets/left-arrow.svg";
+import RightArrow from "../assets/right-arrow.svg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -25,6 +27,14 @@ function SamplePrevArrow(props) {
   );
 }
 
+const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+  <img src={LeftArrow} alt="prevArrow" {...props} />
+);
+
+const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+  <img src={RightArrow} alt="nextArrow" {...props} />
+);
+
 export default class CustomArrows extends Component {
   render() {
     const settings = {
@@ -32,30 +42,56 @@ export default class CustomArrows extends Component {
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
+      //  nextArrow: <SampleNextArrow />,
+      //  prevArrow: <SamplePrevArrow />,
+      prevArrow: <SlickArrowLeft />,
+      nextArrow: <SlickArrowRight />,
     };
     return (
       <div>
         <h2>Custom Arrows</h2>
-        <Slider {...settings}>
+        <Slider {...settings} className="arr">
           <div>
-            <h3>1</h3>
+            <div className="m-1 bg-warning">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                1
+              </h3>
+            </div>
           </div>
           <div>
-            <h3>2</h3>
+            <div className="m-1">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                2
+              </h3>
+            </div>
           </div>
           <div>
-            <h3>3</h3>
+            <div className="m-1">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                3
+              </h3>
+            </div>
           </div>
           <div>
-            <h3>4</h3>
+            <div className="m-1">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                4
+              </h3>
+            </div>
           </div>
           <div>
-            <h3>5</h3>
+            <div className="m-1">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                5
+              </h3>
+            </div>
           </div>
           <div>
-            <h3>6</h3>
+            <div className="m-1">
+              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
+                6
+              </h3>
+            </div>
           </div>
         </Slider>
       </div>
