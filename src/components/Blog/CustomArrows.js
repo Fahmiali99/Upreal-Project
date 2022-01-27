@@ -5,28 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import LeftArrow from "../assets/left-arrow.svg";
 import RightArrow from "../assets/right-arrow.svg";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    />
-  );
-}
-
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
 );
@@ -42,55 +20,98 @@ export default class CustomArrows extends Component {
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-      //  nextArrow: <SampleNextArrow />,
-      //  prevArrow: <SamplePrevArrow />,
+      speed: 2000,
+      pauseOnHover: true,
+      autoplay: true,
+
       prevArrow: <SlickArrowLeft />,
       nextArrow: <SlickArrowRight />,
     };
     return (
-      <div>
-        <h2>Custom Arrows</h2>
+      <div className="container pb-5 dekstop-carousel">
         <Slider {...settings} className="arr">
           <div>
-            <div className="m-1 bg-warning">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                1
-              </h3>
+            <div className="m-1">
+              <div className="bg-white shadow-sm rounded ">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
             <div className="m-1">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                2
-              </h3>
+              <div className="bg-white shadow-sm rounded">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
             <div className="m-1">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                3
-              </h3>
+              <div className="bg-white shadow-sm rounded">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
             <div className="m-1">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                4
-              </h3>
+              <div className="bg-white shadow-sm rounded">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
             <div className="m-1">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                5
-              </h3>
+              <div className="bg-white shadow-sm rounded">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
             <div className="m-1">
-              <h3 className="d-flex justify-content-center bg-white shadow-sm p-3 rounded">
-                6
-              </h3>
+              <div className="bg-white shadow-sm rounded">
+                <img
+                  src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                  width="100%"
+                />
+                <div className="p-2">
+                  <h3>Artificial Intellegence</h3>
+                  <p>lsdakdfsnaf</p>
+                </div>
+              </div>
             </div>
           </div>
         </Slider>

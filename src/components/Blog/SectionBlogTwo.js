@@ -3,7 +3,7 @@ import React from "react";
 function SectionBlogTwo() {
   return (
     <div className="blogpage-2 ">
-      <div className="container text-center pt-5 pb-5">
+      <div className="container text-center pt-5 pb-4">
         <h3>Kenapa Disini Adalah Solusimu</h3>
         <p>
           Berikut ini adalah manfaat yang akan kamu dapatkan jika kamu memakai
