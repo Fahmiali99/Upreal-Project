@@ -37,9 +37,11 @@ export default class CustomArrows extends Component {
                   src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
                   width="100%"
                 />
-                <div className="p-2">
-                  <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                <div className="p-2 ">
+                  <h3>Artificial Intellegence 123</h3>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,7 +55,9 @@ export default class CustomArrows extends Component {
                 />
                 <div className="p-2">
                   <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -67,7 +71,9 @@ export default class CustomArrows extends Component {
                 />
                 <div className="p-2">
                   <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,7 +87,9 @@ export default class CustomArrows extends Component {
                 />
                 <div className="p-2">
                   <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -95,7 +103,9 @@ export default class CustomArrows extends Component {
                 />
                 <div className="p-2">
                   <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,7 +119,9 @@ export default class CustomArrows extends Component {
                 />
                 <div className="p-2">
                   <h3>Artificial Intellegence</h3>
-                  <p>lsdakdfsnaf</p>
+                  <div>
+                    <p>28 Jan 2022</p>
+                  </div>
                 </div>
               </div>
             </div>

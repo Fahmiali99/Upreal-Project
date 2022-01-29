@@ -79,6 +79,30 @@ export default class LazyLoad extends Component {
               </div>
             </div>
           </div>
+          <div className="p-1">
+            <div className="bg-white shadow-sm rounded ">
+              <img
+                src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                width="100%"
+              />
+              <div className="p-2">
+                <h3>Artificial Intellegence</h3>
+                <p>lsdakdfsnaf</p>
+              </div>
+            </div>
+          </div>
+          <div className="p-1">
+            <div className="bg-white shadow-sm rounded ">
+              <img
+                src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
+                width="100%"
+              />
+              <div className="p-2">
+                <h3>Artificial Intellegence</h3>
+                <p>lsdakdfsnaf</p>
+              </div>
+            </div>
+          </div>
         </Slider>
       </div>
     );

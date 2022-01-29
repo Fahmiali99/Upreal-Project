@@ -1,7 +1,6 @@
 import React from "react";
 import CustomArrows from "./CustomArrows";
 import LazyLoad from "./LazyLoad";
-// import MultipleItems from "./MultipleItems";
 
 function SectionBlogThree() {
   return (
