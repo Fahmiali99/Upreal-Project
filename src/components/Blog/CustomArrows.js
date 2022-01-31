@@ -12,7 +12,7 @@ const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
 const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
   <img src={RightArrow} alt="nextArrow" {...props} />
 );
-
+// dekstop
 export default class CustomArrows extends Component {
   render() {
     const settings = {
@@ -34,6 +34,7 @@ export default class CustomArrows extends Component {
             <div className="m-1">
               <div className="bg-white shadow-sm rounded ">
                 <img
+                  className="materialboxed"
                   src="https://demokratis.co.id/wp-content/uploads/2021/03/AI.jpg"
                   width="100%"
                 />
