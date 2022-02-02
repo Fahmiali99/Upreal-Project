@@ -12,7 +12,7 @@ const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
 const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
   <img src={RightArrow} alt="nextArrow" {...props} />
 );
-// dekstop
+
 export default class CustomArrows extends Component {
   render() {
     const settings = {
