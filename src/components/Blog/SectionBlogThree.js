@@ -1,7 +1,6 @@
 import React from "react";
 import CustomArrows from "./CustomArrows";
 import LazyLoad from "./LazyLoad";
-import LightBox from "./LightBox";
 
 function SectionBlogThree() {
   return (
@@ -21,9 +20,6 @@ function SectionBlogThree() {
           <div class="container pt-3">
             <CustomArrows />
             <LazyLoad />
-          </div>
-          <div className="container">
-            <LightBox />
           </div>
         </div>
       </div>
