@@ -32,6 +32,17 @@ p {
   width: 75%;
 }
 
+.title-baner {
+  width: 100%;
+  /* background-color: #cbd1ff; */
+  display: flex;
+  justify-content: center;
+}
+
+.title-inside {
+  width: 70%;
+}
+
 .tinggi {
   height: 100vh;
   display: flex;
@@ -86,6 +97,10 @@ p {
   transition: 0.5s ease-in-out;
 }
 
+/* .client-w {
+  width: 75%;
+} */
+
 /* Light */
 
 .tz-gallery .lightbox {
@@ -95,6 +110,21 @@ p {
 .tz-gallery .lightbox:hover {
   transform: scale(1.05);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.client-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.client-w {
+  width: 75%;
+}
+
+.bor-client {
+  border-block-end: thick double #32a1ce;
+  writing-mode: vertical-lr;
 }
 
 @media only screen and (max-width: 900px) {
@@ -140,6 +170,18 @@ p {
   }
   .navs {
     width: 100%;
+  }
+
+  .title-inside {
+    width: 100%;
+  }
+
+  .client-w {
+    width: 85%;
+  }
+  .client-mobile {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 

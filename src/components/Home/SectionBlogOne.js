@@ -3,14 +3,14 @@ import React from "react";
 function SectionBlogOne() {
   return (
     <div>
-      <section className="py-4">
-        <div className="container">
+      <section className="py-4 client-center">
+        <div className="  client-w">
           <div className="card py-5 border-0 shadow-sm">
             <div className="card-body">
               <div className="row">
-                <div className="col-4">
-                  <div className="border-end d-flex justify-content-md-center">
-                    <div className="mx-2 mx-md-0 me-md-5">
+                <div className="col-4 client-mobile ">
+                  <div className="d-flex justify-content-md-center">
+                    <div className=" mx-md-0 me-md-5">
                       <div className="badge badge-circle bg-soft-danger">
                         <svg
                           className="bi bi-person-fill"
@@ -30,9 +30,9 @@ function SectionBlogOne() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4">
-                  <div className="border-end d-flex justify-content-md-center">
-                    <div className="mx-2 mx-md-0 me-md-5">
+                <div className="col-4 client-mobile border-start">
+                  <div className="d-flex justify-content-md-center">
+                    <div className="mx-md-0 me-md-5">
                       <div className="badge badge-circle bg-soft-danger">
                         <svg
                           className="bi bi-geo-alt-fill"
@@ -52,9 +52,9 @@ function SectionBlogOne() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4">
+                <div className="col-4 client-mobile border-start">
                   <div className="d-flex justify-content-md-center">
-                    <div className="mx-2 mx-md-0 me-md-5">
+                    <div className="mx-md-0 me-md-5">
                       <div className="badge badge-circle bg-soft-danger">
                         <svg
                           className="bi bi-hdd-stack-fill"
