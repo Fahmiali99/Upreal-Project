@@ -9,8 +9,9 @@ function SectionBlogTwo() {
           Berikut ini adalah manfaat yang akan kamu dapatkan jika kamu memakai
           jasa UPREAL
         </p>
+
         <div className="row">
-          <div className="col-sm">
+          <div className=" col-sm">
             <div className="container shadow-sm p-3 mb-2 bg-light rounded">
               <img src="/assets/img/blog/a.png" alt="" width="50%" />
               <h4>Biaya Terjangkau</h4>
@@ -20,7 +21,7 @@ function SectionBlogTwo() {
               </p>
             </div>
           </div>
-          <div className="col-sm">
+          <div className=" col-sm">
             <div className="container shadow-sm p-3 mb-2 bg-light rounded">
               <img src="/assets/img/blog/b.png" alt="" width="50%" />
               <h4>Fast Response</h4>

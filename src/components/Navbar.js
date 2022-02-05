@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
-      <nav className=" navbar navbar-expand-md bg-dark navbar-dark ">
-        <div className="container">
-          <div className="container">
+    <div className="d-flex justify-content-center bg-dark">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs">
+        <div className="container-fluid">
+          <div className="container-fluid w-100 ">
             <a className=" navbar-brand fw-bold fs-4 font-italic" href="#">
               UPREAL
             </a>
 
             <button
-              className="navbar-toggler"
+              className="navbar-toggler "
               type="button"
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
