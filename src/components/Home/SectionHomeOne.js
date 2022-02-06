@@ -5,13 +5,13 @@ function SectionBlogOne() {
     <div>
       <section className="py-4 client-center">
         <div className="  client-w">
-          <div className="card py-5 border-0 shadow-sm">
+          <div className="card py-5 border-0  shadow-bg-one">
             <div className="card-body">
               <div className="row">
                 <div className="col-4 client-mobile ">
                   <div className="d-flex justify-content-md-center">
                     <div className=" mx-md-0 me-md-5">
-                      <div className="badge badge-circle bg-soft-danger">
+                      <div className="badge badge-circle bg-soft-danger  ">
                         <svg
                           className="bi bi-person-fill"
                           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ function SectionBlogOne() {
                         </svg>
                       </div>
                     </div>
-                    <div>
+                    <div className="mx-1">
                       <p className="fw-bolder text-1000 mb-0">90+ </p>
                       <p className="mb-0">Happy Clients </p>
                     </div>
@@ -46,7 +46,7 @@ function SectionBlogOne() {
                         </svg>
                       </div>
                     </div>
-                    <div>
+                    <div className="mx-1">
                       <p className="fw-bolder text-1000 mb-0">3 </p>
                       <p className="mb-0">Negara</p>
                     </div>
@@ -68,7 +68,7 @@ function SectionBlogOne() {
                         </svg>
                       </div>
                     </div>
-                    <div>
+                    <div className="mx-1">
                       <p className="fw-bolder text-1000 mb-0">1600+ </p>
                       <p className="mb-0">Project Selesai </p>
                     </div>

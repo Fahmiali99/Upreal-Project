@@ -1,5 +1,8 @@
 import React from "react";
-import SectionBlogOne from "./SectionBlogOne";
+import CustomArrows from "./CustomArrows";
+import LazyLoad from "./LazyLoad";
+import SectionHomeOne from "./SectionHomeOne";
+import SectionHomeTwo from "./SectionHomeTwo";
 import Service from "./Service";
 
 const Home = () => {
@@ -8,24 +11,6 @@ const Home = () => {
       <div className="container-fluid p-md-5">
         <div className="">
           <div className=" row flex-center">
-            {/* <div className="col-sm-6">
-            <div className="card-body">
-              <h1 className="card-title">Selamat datang di UPREAL</h1>
-              <p className="card-text">
-                Upreal menyediakan banyak jasa yang dapat di pilih sesuai yang
-                di butuhkan konsumen. Jika anda ingin meneruskan bisa klik I'm
-                Order.
-              </p>
-              <a href="#" className="btn btn-primary">
-                I'm Order
-              </a>
-            </div>
-          </div>
-          <div className="col-sm-6">
-            <div className="card-body d-flex justify-content-center">
-              <img src="/assets/img/home/baner.svg" alt="" width="70%" />
-            </div>
-          </div> */}
             <div class="col-sm-6 order-md-1 ">
               <div className=" w-100">
                 <div className="d-flex justify-content-center mt-4 mb-3">
@@ -63,8 +48,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <SectionBlogOne />
+      <SectionHomeOne />
+      <SectionHomeTwo />
       <Service />
+      <CustomArrows />
+      <LazyLoad />
     </div>
   );
 };

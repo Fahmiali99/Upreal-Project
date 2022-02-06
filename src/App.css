@@ -28,7 +28,6 @@ p {
 }
 
 .navs {
-  background-color: #cbd1ff;
   width: 75%;
 }
 
@@ -103,6 +102,10 @@ p {
 
 /* Light */
 
+.shadow-bg-one {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
 .tz-gallery .lightbox {
   transition: 0.2s ease-in-out;
 }
@@ -125,6 +128,33 @@ p {
 .bor-client {
   border-block-end: thick double #32a1ce;
   writing-mode: vertical-lr;
+}
+
+.bg-soft-danger {
+  background-color: #feebeb !important;
+  padding: 1rem !important;
+  border-radius: 50% !important;
+}
+
+/* .badge {
+    padding: none;
+    background-color: white;
+  } */
+
+.service-background {
+  background-color: #eeeeee;
+}
+
+.title-konsumen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-konsumen-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 900px) {
@@ -182,6 +212,11 @@ p {
   .client-mobile {
     display: flex;
     justify-content: space-evenly;
+  }
+  .bg-soft-danger {
+    background-color: #feebeb !important;
+    padding: 4px !important;
+    border-radius: 50% !important;
   }
 }
 
