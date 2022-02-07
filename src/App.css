@@ -136,6 +136,12 @@ p {
   border-radius: 50% !important;
 }
 
+.bg-soft-danger-owner {
+  background-color: #81a9ff !important;
+  padding: 1rem !important;
+  border-radius: 0% 50% 0% 0% !important;
+}
+
 /* .badge {
     padding: none;
     background-color: white;
@@ -155,6 +161,15 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.banner-about {
+  background-color: #cbd1ff;
+}
+
+.borders {
+  border-radius: 0px 20px 0px 0px;
+  transform: rotate(-50deg);
 }
 
 @media only screen and (max-width: 900px) {
@@ -217,6 +232,10 @@ p {
     background-color: #feebeb !important;
     padding: 4px !important;
     border-radius: 50% !important;
+  }
+  .bg-soft-danger-owner {
+    padding: 4px !important;
+    border-radius: 0% 50% 0% 0% !important;
   }
 }
 

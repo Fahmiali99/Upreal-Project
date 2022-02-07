@@ -2,21 +2,36 @@ import React from "react";
 
 function SeactionOne() {
   return (
-    <div className="aboutpage">
-      <div className=" text-center pt-5 pb-5">
-        <div className="mt-5 pt-5 mb-5 pb-5">
-          <div className="container title mt-5 pt-4 mb-5 pb-5">
-            <h1> Kamu Ingin Mencari Jasa</h1>
-            <div className="contianer d-flex justify-content-center">
-              <p className="w-75">
-                Disini Solusi anda dapat terselesaikan, kami menawarkan beberapa
-                jasa yang tersedia di Upreal. Kami memberikan pelayanan yang
-                ramah di kantong anda, buruan order yuk.
-              </p>
+    <div className="aboutpage ">
+      <div className="pt-5 pb-5 bg-light">
+        <div className="pt-5 pb-5">
+          <div className="container title pt-5 pb-5 ">
+            <div className="row">
+              <div className="col-sm">
+                <h1>
+                  We Work as an <br />
+                  extension of your team{" "}
+                </h1>
+              </div>
+              <div className="col-sm">
+                <div className="">
+                  <p class="">
+                    <span class="fw-medium">Upreal </span> menyediakan banyak
+                    jasa yang dapat di pilih sesuai yang di butuhkan konsumen.
+                    Jika anda ingin meneruskan bisa klik I'm Order.{" "}
+                  </p>
+                  <a
+                    class="btn btn-lg btn-danger hover-top btn-glow shadow-lg"
+                    href="#layanan"
+                  >
+                    I'm Order
+                    <span className="ml-3 ">
+                      <i class="fas fa-tag"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <button type="button" class="btn btn-primary">
-              Order Now
-            </button>
           </div>
         </div>
       </div>
