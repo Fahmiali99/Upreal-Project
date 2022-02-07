@@ -11,8 +11,8 @@ const Service = () => {
         <div class="tz-gallery pb-5">
           <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 pb-4">
-              <div className="col">
-                <div className="lightbox card h-100 card-kegiatan">
+              <div className="col ">
+                <div className="lightbox card h-100 card-kegiatan ">
                   <div className="container text-center p-3 color-content">
                     <img src="/assets/img/home/fa1.png" alt="" width="50%" />
                   </div>

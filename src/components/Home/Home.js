@@ -11,14 +11,14 @@ const Home = () => {
       <div className="container-fluid p-md-5">
         <div className="">
           <div className=" row flex-center">
-            <div class="col-sm-6 order-md-1 ">
+            <div class="col-sm-5 order-md-1 ">
               <div className=" w-100">
                 <div className="d-flex justify-content-center mt-4 mb-3">
                   <img
                     class="img-fluid "
                     src="/assets/img/home/baner.svg"
                     alt=""
-                    width="70%"
+                    width="95%"
                   />
                 </div>
               </div>
