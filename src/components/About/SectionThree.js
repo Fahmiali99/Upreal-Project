@@ -15,7 +15,7 @@ function SectionThree() {
             </div>
           </div>
 
-          <div className="col-sm ">
+          <div className="col-sm pt-3 pb-3">
             <div className="d-flex ">
               <div className="">
                 <h1>

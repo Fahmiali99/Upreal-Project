@@ -3,7 +3,7 @@ import React from "react";
 function SectionTwo() {
   return (
     <div className="aboutpage-2">
-      <div className="container-fluid col-sm-9 text-center  pt-5 pb-5 mb-3">
+      <div className="container  text-center  pt-5 pb-5 mb-3">
         <div className="">
           <img
             src="https://cohive.space/sojuhanjan/wp-content/uploads/2019/12/Berbagai-Manfaat-Teamwork-yang-Membawa-Kemudahan-1200x675.jpeg"
@@ -12,6 +12,25 @@ function SectionTwo() {
           />
         </div>
       </div>
+
+      {/* <div className="followed">
+        <div className="container text-center card">
+          <div className="row d-flex justify-content-center">
+            <div className="col-3">
+              <h1>Hello</h1>
+            </div>
+            <div className="col-3">
+              <h1>Hello</h1>
+            </div>
+            <div className="col-3">
+              <h1>Hello</h1>
+            </div>
+            <div className="col-3">
+              <h1>Hello</h1>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
       <div className="like">
         <div className="container">
