@@ -3,7 +3,7 @@ import React from "react";
 function SectionFour() {
   return (
     <div>
-      <div class="container pb-3 pt-4 mt-4">
+      <div class="container pb-5 pt-4 mt-4">
         <div className="pb-3">
           <h1 className="text-center">Lokasi kami saat ini</h1>
         </div>
@@ -29,14 +29,13 @@ function SectionFour() {
               </p>
               <a href="https://goo.gl/maps/Cqef2oAHH6v4xUCf8">
                 <button type="button" class="btn btn-outline-secondary">
-                  Secondary
+                  Open Maps
                 </button>
               </a>
             </div>
           </div>
         </div>
       </div>
-      ;
     </div>
   );
 }

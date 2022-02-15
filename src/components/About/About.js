@@ -3,11 +3,13 @@ import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
+import SimpleSlider from "./SimpleSlider";
 
 const About = () => {
   return (
     <div>
       <SectionOne />
+      <SimpleSlider />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
