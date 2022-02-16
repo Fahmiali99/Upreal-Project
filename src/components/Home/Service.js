@@ -19,13 +19,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Logo Design</h4>
-                    <Link className="nav-link" to="/Logo">
-                      Logo
+                    <Link className="" to="/Logo">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
                     </Link>
-
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
                   </div>
                 </div>
               </div>
@@ -36,9 +34,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Flyer design</h4>
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
+                    <Link className="" to="/Flyer">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -49,9 +49,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Poster design</h4>
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
+                    <Link className="" to="/Poster">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -62,9 +64,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Instagram feed design</h4>
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
+                    <Link className="" to="/Instagram">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -75,9 +79,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Video editor</h4>
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
+                    <Link className="" to="/Video">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -88,9 +94,11 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Many more</h4>
-                    <button type="button" class="btn btn-success mt-3 mb-4">
-                      Order Now
-                    </button>
+                    <Link className="" to="/More">
+                      <button type="button" class="btn btn-success mt-3 mb-4">
+                        Order Now
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
