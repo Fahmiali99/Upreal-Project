@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -18,6 +19,10 @@ const Service = () => {
                   </div>
                   <div className="container text-center mt-3">
                     <h4>Logo Design</h4>
+                    <Link className="nav-link" to="/Logo">
+                      Logo
+                    </Link>
+
                     <button type="button" class="btn btn-success mt-3 mb-4">
                       Order Now
                     </button>

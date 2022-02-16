@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
+import Logo from "./components/Service/Logo/Logo";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/About" element={<About />}></Route>
         <Route path="/Blog" element={<Blog />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/Logo" element={<Logo />}></Route>
       </Routes>
       <Footer />
     </div>
