@@ -65,7 +65,7 @@ export default function ContactUs() {
             <div className="col-9 pt-3 mx-auto">
               <input
                 type="submit"
-                className="btn btn-info"
+                className="btn btn-outline-primary"
                 value="Send Message"
               ></input>
             </div>
