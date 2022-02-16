@@ -8,9 +8,9 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         "gmail",
-        "youtube_template",
+        "report_template",
         e.target,
-        "user_JABO21I8Gm6sxByJH17Nu"
+        "user_5bDEXDZfZdPTj9D4CSF7V"
       )
       .then(
         (result) => {
@@ -27,8 +27,8 @@ export default function ContactUs() {
     <div>
       <div className="container">
         <form onSubmit={sendEmail}>
-          <div className="row pt-5 mx-auto">
-            <div className="col-8 form-group mx-auto">
+          <div className="row pt-5 pb-5 ">
+            <div className="col-9 form-group mx-auto">
               <input
                 type="text"
                 className="form-control"
@@ -36,7 +36,7 @@ export default function ContactUs() {
                 name="name"
               />
             </div>
-            <div className="col-8 form-group pt-2 mx-auto">
+            <div className="col-9 form-group pt-2 mx-auto">
               <input
                 type="email"
                 className="form-control"
@@ -44,7 +44,7 @@ export default function ContactUs() {
                 name="email"
               />
             </div>
-            <div className="col-8 form-group pt-2 mx-auto">
+            <div className="col-9 form-group pt-2 mx-auto">
               <input
                 type="text"
                 className="form-control"
@@ -52,7 +52,7 @@ export default function ContactUs() {
                 name="subject"
               />
             </div>
-            <div className="col-8 form-group pt-2 mx-auto">
+            <div className="col-9 form-group pt-2 mx-auto">
               <textarea
                 className="form-control"
                 id=""
@@ -62,7 +62,7 @@ export default function ContactUs() {
                 name="message"
               ></textarea>
             </div>
-            <div className="col-8 pt-3 mx-auto">
+            <div className="col-9 pt-3 mx-auto">
               <input
                 type="submit"
                 className="btn btn-info"

@@ -5,11 +5,14 @@ function SectionContactOne() {
   return (
     <div>
       <div>
-        <img
-          src="https://legal.thomsonreuters.com/content/dam/ewp-m/images/image-library/en/artworked/206512-175291689-2880x1100-h.jpg.transform/hero-s/q90/image.jpg"
-          alt=""
-          width="100%"
-        />
+        <div className="head-report">
+          <div className="title-report">
+            <div className="text-center bg-light p-3">
+              <h1>Layanan Pengaduan</h1>
+              <p>Anda dapat mengadukan pelayanan jasa Upreal disini</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="contact">
