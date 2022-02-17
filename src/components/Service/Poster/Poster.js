@@ -19,7 +19,7 @@ export default function Poster() {
   }
 
   return (
-    <div>
+    <div className="pt-5">
       <div>
         <div className="head-report">
           <div className="title-report">

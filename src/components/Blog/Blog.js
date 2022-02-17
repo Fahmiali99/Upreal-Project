@@ -5,7 +5,7 @@ import SectionBlogTwo from "./SectionBlogTwo";
 
 function Blog() {
   return (
-    <div>
+    <div className="pt-5">
       <SectionBlogOne />
       <SectionBlogTwo />
       <SectionBlogThree />

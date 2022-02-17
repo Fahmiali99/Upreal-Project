@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
-    <div>
+    <div id="layanan">
       <div className="container-fluid service-background ">
         <h2 className="text-center pt-5">Jasa yang tersedia</h2>
         <p className="text-center pb-5">

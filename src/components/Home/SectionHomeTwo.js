@@ -14,10 +14,10 @@ function SectionHomeTwo() {
               />
             </div>
             <div class="col-md-7 col-lg-5 text-center text-md-start">
-              <h2>
+              <h3 className="fw-medium">
                 Kami Menawarkan <br />
                 Berbagai Macam Fitur Untuk Anda
-              </h2>
+              </h3>
               <div class="d-flex">
                 <svg
                   class="bi bi-check-circle-fill"

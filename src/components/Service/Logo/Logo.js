@@ -19,9 +19,9 @@ export default function Logo() {
   }
 
   return (
-    <div>
+    <div className="pt-5">
       <div>
-        <div className="head-report">
+        <div className="head-report ">
           <div className="title-report">
             <div className="text-center bg-light p-3">
               <h1>Logo Design</h1>

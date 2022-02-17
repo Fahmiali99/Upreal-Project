@@ -3,7 +3,7 @@ import SectionContactOne from "./SectionContactOne";
 
 function Contact() {
   return (
-    <div>
+    <div className="pt-5">
       <SectionContactOne />
     </div>
   );

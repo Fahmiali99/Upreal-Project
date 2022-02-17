@@ -19,7 +19,7 @@ export default function More() {
   }
 
   return (
-    <div>
+    <div className="pt-5">
       <div>
         <div className="head-report">
           <div className="title-report">
