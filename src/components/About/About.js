@@ -7,7 +7,7 @@ import SimpleSlider from "./SimpleSlider";
 
 const About = () => {
   return (
-    <div>
+    <div className="pt-5">
       <SectionOne />
       <SimpleSlider />
       <SectionTwo />
