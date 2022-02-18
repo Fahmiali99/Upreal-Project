@@ -12,19 +12,22 @@ function SectionBlogOne() {
                   <div class="col-12 col-lg-6 text-lg-start">
                     <h2>
                       Jasa Desain <br />
-                      #1 Di Indonesia!
+                      Kreatif dan Berkualitas !
                     </h2>
                     <p class="mb-lg-0">
                       Masih bingung? Hubungi kami untuk mendapatkan konsultasi
-                      gratis oleh Digital Marketing Specialist dari DesainIn.
+                      gratis oleh Digital Marketing Specialist dari Upreal.
                     </p>
                   </div>
                   <div class="col-12 col-lg-6 text-lg-end">
                     <a
                       class="btn btn-lg btn-danger hover-top btn-glow text-end"
-                      href="#"
+                      href="/"
                     >
-                      Subscribe Now
+                      I'm Order
+                      <span className="ml-3 ">
+                        <i class="fas fa-tag"></i>
+                      </span>
                     </a>
                   </div>
                 </div>

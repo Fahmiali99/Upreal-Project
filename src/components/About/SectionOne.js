@@ -7,7 +7,7 @@ function SeactionOne() {
         <div className="pt-5 pb-5">
           <div className="container title pt-5 pb-5 ">
             <div className="row">
-              <div className="col-sm">
+              <div className="col-sm ">
                 <h1>
                   We Work as an <br />
                   extension of your team{" "}

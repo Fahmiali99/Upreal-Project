@@ -224,6 +224,55 @@ p {
   z-index: 99;
 }
 
+.about-garis-left {
+  width: 7%;
+  height: 2px !important;
+  background: #6c757d;
+  color: #6c757d;
+}
+
+.btn-about {
+  border-radius: 20px !important;
+}
+
+.bg-decoration-circle-left {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.bg-decoration-circle-right {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.title-banner-about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uprise {
+  z-index: -1;
+}
+
 @media only screen and (max-width: 900px) {
   .tinggi {
     height: auto;
@@ -291,6 +340,11 @@ p {
   }
   .cscs {
     margin-bottom: -15rem;
+  }
+
+  .bg-decoration-circle-left {
+    width: 100%;
+    height: 100vh;
   }
 }
 
