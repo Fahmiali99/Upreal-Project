@@ -4,7 +4,6 @@ import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
-import SimpleSlider from "./SimpleSlider";
 
 const About = () => {
   return (
@@ -13,25 +12,24 @@ const About = () => {
         <figure class="bg-decoration-circle-left z-index-1" aria-hidden="true">
           <img
             class=""
-            src="/assets/background/About/Frames2.png"
+            src="/assets/background/About/Frames123.png"
             alt="bg"
-            width="200px"
+            width="100%"
           />
         </figure>
       </div>
       <div className="uprise">
-        <figure class="bg-decoration-circle-right z-index-1" aria-hidden="true">
+        {/* <figure class="bg-decoration-circle-right z-index-1" aria-hidden="true">
           <img
             class=""
             src="/assets/background/About/Frames1.png"
             alt="bg"
             width="200px"
           />
-        </figure>
+        </figure> */}
       </div>
       <SectionAboutZero />
       {/* <SectionOne /> */}
-      <SimpleSlider />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
