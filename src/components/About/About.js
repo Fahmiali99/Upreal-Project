@@ -29,8 +29,9 @@ const About = () => {
         </figure> */}
       </div>
       <SectionAboutZero />
-      {/* <SectionOne /> */}
       <SectionTwo />
+      <SectionOne />
+
       <SectionThree />
       <SectionFour />
     </div>

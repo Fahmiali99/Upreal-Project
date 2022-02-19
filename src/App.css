@@ -293,6 +293,15 @@ p {
   border-radius: 20px;
 }
 
+.aboutpage-2 {
+  /* background-color: #c7ddf8; */
+  background-image: linear-gradient(to top right, #c7ddf8, #ffffff);
+}
+
+.aboutpage {
+  background-color: #ffffff;
+}
+
 @media only screen and (max-width: 900px) {
   .tinggi {
     height: auto;
