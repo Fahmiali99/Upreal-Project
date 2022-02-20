@@ -302,6 +302,22 @@ p {
   background-color: #ffffff;
 }
 
+.icons-about {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+  color: #183153;
+}
+
+.about-bol {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #c7ddf8 !important;
+}
+
 @media only screen and (max-width: 900px) {
   .tinggi {
     height: auto;

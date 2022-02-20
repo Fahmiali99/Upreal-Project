@@ -39,8 +39,10 @@ function SectionTwo() {
             <div className=" pt-3">
               <div className="row row-cols-2 row-cols-md-2 g-2 pb-4">
                 <div className="col  ">
-                  <div className="p-2 bg-light  border-about">
-                    <i class="fa-solid fa-brush"></i>
+                  <div className="p-2 bg-light  border-about ">
+                    <div className="about-bol">
+                      <i class="fa-brands fa-atlassian icons-about"></i>
+                    </div>
                     <h5>
                       Customer
                       <br />
@@ -51,7 +53,9 @@ function SectionTwo() {
                 </div>
                 <div className="col  ">
                   <div className="p-2 bg-light border-about">
-                    <i class="fa-solid fa-brush"></i>
+                    <div className="about-bol">
+                      <i class="fa-brands fa-buffer icons-about"></i>
+                    </div>
                     <h5>
                       Customer
                       <br />
@@ -62,7 +66,9 @@ function SectionTwo() {
                 </div>
                 <div className="col  ">
                   <div className="p-2 bg-light border-about">
-                    <i class="fa-solid fa-brush"></i>
+                    <div className="about-bol">
+                      <i class="fa-solid fa-campground icons-about"></i>
+                    </div>
                     <h5>
                       Customer
                       <br />
@@ -73,7 +79,9 @@ function SectionTwo() {
                 </div>
                 <div className="col  ">
                   <div className="p-2 bg-light border-about">
-                    <i class="fa-solid fa-brush"></i>
+                    <div className="about-bol">
+                      <i class="fa-brands fa-deezer icons-about"></i>
+                    </div>
                     <h5>
                       Customer
                       <br />
