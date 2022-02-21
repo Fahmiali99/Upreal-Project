@@ -2,7 +2,7 @@ import React from "react";
 
 function SectionFour() {
   return (
-    <div className="banner-map">
+    <div className="banner-map bg-info">
       <div class="container pb-5 pt-4 mt-4">
         <div className="pb-3">
           <h1 className="text-center">Lokasi kami saat ini</h1>
