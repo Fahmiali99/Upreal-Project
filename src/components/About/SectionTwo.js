@@ -8,9 +8,8 @@ function SectionTwo() {
           <div className="col-sm  ">
             <div className="d-flex justify-content-center pt-3">
               <div className="">
-                <h2>
-                  Cees have Solutions <br /> that provide your <br />
-                </h2>
+                <h2>Cees have Solutions</h2>
+                <h2 className="sec-two-about"> that provide your</h2>
                 <div className="d-flex">
                   <a
                     class="btn  btn-primary hover-top btn-glow text-end"
