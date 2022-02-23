@@ -1,5 +1,5 @@
 import React from "react";
-
+// Ukuran kanan kiri belom seimbang
 function SectionTwo() {
   return (
     <div className="aboutpage-2">
