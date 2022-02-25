@@ -31,8 +31,8 @@ const About = () => {
       <SectionAboutZero />
       <SectionTwo />
       <SectionOne />
-
       <SectionThree />
+
       <SectionFour />
     </div>
   );
