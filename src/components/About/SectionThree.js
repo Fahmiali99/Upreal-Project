@@ -6,22 +6,22 @@ function SectionThree() {
       <div className="w-100 d-flex justify-content-center pt-5 pb-5">
         <div className=" col-md-9">
           <div className="title-about text-center">
-            <h2>Structur in Upreal</h2>
+            <h1>Structur in Upreal</h1>
           </div>
 
-          <div className="w-100 d-felx justify-content-center">
+          <div className="w-100 d-felx justify-content-center pt-4">
             <div className="row row-cols-1 row-cols-md-2 g-3 pb-4">
-              <div className="col bg-light">
-                <div className="d-flex ">
-                  <div className="">
-                    <img
-                      src="assets/img/about/aboutIcons/plan.png"
-                      alt=""
-                      width="30%"
-                    />
-                  </div>
-                  <div className="">
-                    <h3>Zenity for IBPMS</h3>
+              <div className="col ">
+                <div className="d-flex">
+                  <img
+                    src="assets/img/about/aboutIcons/chatting.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7">
+                    <h4>Zenity for IBPMS</h4>
                     <p>
                       Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
                       yang ditempatkan untuk mendemostrasikan elemen grafis atau
@@ -30,25 +30,100 @@ function SectionThree() {
                   </div>
                 </div>
               </div>
-              <div className="col bg-warning">
-                {" "}
-                <h4>Hello 1</h4>{" "}
+              <div className="col ">
+                <div className="d-flex justify-content-end">
+                  <img
+                    src="assets/img/about/aboutIcons/3d.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7">
+                    <h4>Zenity for IBPMS</h4>
+                    <p>
+                      Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                      yang ditempatkan untuk mendemostrasikan elemen grafis atau
+                      presentasi
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="col bg-success">
-                {" "}
-                <h4>Hello 1</h4>{" "}
+              <div className="col ">
+                <div className="d-flex ">
+                  <img
+                    src="assets/img/about/aboutIcons/deadline.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7">
+                    <h4>Zenity for IBPMS</h4>
+                    <p>
+                      Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                      yang ditempatkan untuk mendemostrasikan elemen grafis atau
+                      presentasi
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="col bg-warning">
-                {" "}
-                <h4>Hello 1</h4>{" "}
+              <div className="col ">
+                <div className="d-flex justify-content-end">
+                  <img
+                    src="assets/img/about/aboutIcons/diagram.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7">
+                    <h4>Zenity for IBPMS</h4>
+                    <p>
+                      Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                      yang ditempatkan untuk mendemostrasikan elemen grafis atau
+                      presentasi
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="col bg-success">
-                {" "}
-                <h4>Hello 1</h4>{" "}
+              <div className="col ">
+                <div className="d-flex ">
+                  <img
+                    src="assets/img/about/aboutIcons/plan.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7 ">
+                    <h4>Zenity for IBPMS</h4>
+                    <p>
+                      Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                      yang ditempatkan untuk mendemostrasikan elemen grafis atau
+                      presentasi
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="col bg-warning">
-                {" "}
-                <h4>Hello 1</h4>{" "}
+              <div className="col ">
+                <div className="d-flex justify-content-end">
+                  <img
+                    src="assets/img/about/aboutIcons/tour.png"
+                    alt=""
+                    width="15%"
+                    height="15%"
+                  />
+
+                  <div className="col-md-7">
+                    <h4>Zenity for IBPMS</h4>
+                    <p>
+                      Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                      yang ditempatkan untuk mendemostrasikan elemen grafis atau
+                      presentasi
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

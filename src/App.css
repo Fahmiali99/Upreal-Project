@@ -276,6 +276,7 @@ p {
 }
 
 .responsive-map {
+  width: 100%;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -303,7 +304,7 @@ p {
 }
 
 .aboutpage-3 {
-  background-color: #ebebeb;
+  background-color: #ffffff;
 }
 
 .icons-about {

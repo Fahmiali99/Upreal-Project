@@ -22,12 +22,16 @@ function SectionFour() {
                   ></iframe>
                 </div>
               </div>
-              <div class="col-sm">
-                <div className="pt-3">
-                  <p className="sub-about">
+              <div class="col-sm mx-md-4">
+                <div className="pt-3 ">
+                  <p>
                     Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
                     yang ditempatkan untuk mendemostrasikan elemen grafis atau
-                    presentasi visual seperti font, tipografi, dan tata letak.{" "}
+                    presentasi visual seperti font, tipografi, dan tata letak.
+                    <br />
+                    <br />
+                    Lorem ipsum, atau ringkasnya lipsum, adalah teks standar
+                    yang ditempatkan untuk mendemostrasikan elemen grafis atau
                   </p>
                   <a href="https://goo.gl/maps/Cqef2oAHH6v4xUCf8">
                     <button type="button" class="btn btn-outline-secondary">
