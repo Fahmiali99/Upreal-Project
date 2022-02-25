@@ -34,7 +34,7 @@ function SectionFour() {
                     yang ditempatkan untuk mendemostrasikan elemen grafis atau
                   </p>
                   <a href="https://goo.gl/maps/Cqef2oAHH6v4xUCf8">
-                    <button type="button" class="btn btn-outline-secondary">
+                    <button type="button" class="btn btn-primary">
                       Open Maps
                     </button>
                   </a>
