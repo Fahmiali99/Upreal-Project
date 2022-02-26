@@ -328,8 +328,31 @@ p {
 }
 
 .banner-map {
+  /* background-attachment: fixed; */
+}
+
+.sub-banner-map {
   background: url("../public/assets/img/about/maps.png");
-  background-attachment: fixed;
+  width: 100%;
+  height: 70vh;
+  z-index: 0;
+  opacity: 20%;
+  background-size: cover;
+}
+
+.parent-tax {
+  z-index: -1;
+}
+
+/* .sub-banner-map {
+  width: 100%;
+  height: 100vh;
+  background-color: #32a1ce;
+  opacity: 20%;
+} */
+
+.footer {
+  position: absolute;
 }
 
 @media only screen and (max-width: 900px) {
