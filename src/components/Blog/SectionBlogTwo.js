@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonGroup from "./ButtonGroup";
+
 
 function SectionBlogTwo() {
   return (
@@ -12,7 +12,7 @@ function SectionBlogTwo() {
         </p>
 
         <div className="row">
-          <ButtonGroup />
+
           <div className=" col-sm">
             <div className="container shadow-sm p-3 mb-2 bg-light rounded">
               <img src="/assets/img/blog/a.png" alt="" width="50%" />
