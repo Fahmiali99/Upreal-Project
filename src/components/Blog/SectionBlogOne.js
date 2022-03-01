@@ -7,9 +7,9 @@ function SectionBlogOne() {
         <div class="py-5 z-index-1">
           <div className="w-100 d-flex justify-content-center">
             <div className="col-md-9">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 d-flex justify-content-center pt-5 mt-5 pb-5 mb-5">
                 <div className="text-center">
-                  <h1> Dirodi Entertaining </h1> <h1> "Blog" </h1>{" "}
+                  <h1> Dirodi Entertaining </h1> <h1> "Blog" </h1>
                   <p>
                     dirodi entertaining blog dirodi
                     <span>

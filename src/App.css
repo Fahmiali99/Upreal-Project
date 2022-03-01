@@ -179,10 +179,8 @@ p {
 }
 
 .banner-blog-parent {
-  /* background: url(../public/assets/img/Blog/dasar-banner.jpg); */
+  background: url(../public/assets/img/Blog/Artboard.png);
   width: 100%;
-  background-size: cover;
-  border: 2px solid;
 
   /* background-attachment: fixed; */
 }
