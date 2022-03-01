@@ -5,30 +5,41 @@ function SectionBlogOne() {
     <div className="blogpage">
       <div className="banner-blog-parent ">
         <div class="py-5 z-index-1">
-          <div class="container">
-            <div class="card py-5 px-5 border-0 shadow-sm">
-              <div class="card-body">
-                <div class="row flex-center">
-                  <div class="col-12 col-lg-6 text-lg-start">
-                    <h2>
-                      Jasa Desain <br />
-                      Kreatif dan Berkualitas !
-                    </h2>
-                    <p class="mb-lg-0">
-                      Masih bingung? Hubungi kami untuk mendapatkan konsultasi
-                      gratis oleh Digital Marketing Specialist dari Upreal.
-                    </p>
-                  </div>
-                  <div class="col-12 col-lg-6 text-lg-end">
-                    <a
-                      class="btn btn-lg btn-danger hover-top btn-glow text-end"
-                      href="/"
-                    >
-                      I'm Order
-                      <span className="ml-3 ">
-                        <i class="fas fa-tag"></i>
-                      </span>
-                    </a>
+          <div className="w-100 d-flex justify-content-center">
+            <div className="col-md-9">
+              <div className="w-100 d-flex justify-content-center">
+                <div className="text-center">
+                  <h1> Dirodi Entertaining </h1> <h1> "Blog" </h1>{" "}
+                  <p>
+                    dirodi entertaining blog dirodi
+                    <span>
+                      <br />
+                      entertaing birodi blog
+                    </span>
+                  </p>
+                  <div class="search-container">
+                    <div className="search ">
+                      <div className="w-100 h-100 d-flex justify-content-center align-items-center">
+                        <form
+                          action="/action_page.php"
+                          className="d-flex align-items-center"
+                        >
+                          <input
+                            type="text"
+                            placeholder="Search.."
+                            name="search"
+                            class="search2 p-2 mr-5"
+                          />
+
+                          <button
+                            type="button"
+                            class="btn  mx-md-2 button-search mb-5 mt-5"
+                          >
+                            <i class="fa fa-search pr-3 pl-3 text-white"> </i>
+                          </button>
+                        </form>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
