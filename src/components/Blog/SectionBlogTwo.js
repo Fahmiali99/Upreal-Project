@@ -1,43 +1,54 @@
 import React from "react";
 
-
 function SectionBlogTwo() {
   return (
     <div className="blogpage-2 ">
-      <div className="container text-center pt-5 pb-4">
-        <h3>Kenapa Disini Adalah Solusimu</h3>
-        <p>
-          Berikut ini adalah manfaat yang akan kamu dapatkan jika kamu memakai
-          jasa UPREAL
-        </p>
-
-        <div className="row">
-
-          <div className=" col-sm">
-            <div className="container shadow-sm p-3 mb-2 bg-light rounded">
-              <img src="/assets/img/blog/a.png" alt="" width="50%" />
-              <h4>Biaya Terjangkau</h4>
-              <p>
-                Biaya pemesanan jasa yang kami berikan sangat ramah di kantong
-                anda.
-              </p>
+      <div className="w-100 d-flex justify-content-center">
+        <div className="col-md-10">
+          <div className="row">
+            <div class="col-sm  flex-center">
+              <div className=" w-100">
+                <div className="d-flex justify-content-center mt-4 mb-3">
+                  <img
+                    class="img-fluid "
+                    src="/assets/img/home/baner.svg"
+                    alt=""
+                    width="95%"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-          <div className=" col-sm">
-            <div className="container shadow-sm p-3 mb-2 bg-light rounded">
-              <img src="/assets/img/blog/b.png" alt="" width="50%" />
-              <h4>Fast Response</h4>
-              <p>
-                Pemesanan jasa disini lansung ditanganin sama owner sendiri
-                tanpa ada orang kedua.
-              </p>
-            </div>
-          </div>
-          <div className="col-sm">
-            <div className="container shadow-sm p-3 mb-2 bg-light rounded">
-              <img src="/assets/img/blog/c.png" alt="" width="50%" />
-              <h4>Sesuai Deadline</h4>
-              <p>Dealine yang ditentukan tidak akan mengecewakan customer.</p>
+
+            <div class="col-sm d-flex align-items-center">
+              <div className="title-baner">
+                <div className="title-inside">
+                  <h1 class="">
+                    How to Choose Bicycle For Spring In Australia Shopping
+                    Center?
+                  </h1>
+                  <p class="mt-3 mb-4">
+                    <span class="fw-medium">Upreal </span> menyediakan banyak
+                    jasa yang dapat di pilih sesuai yang di butuhkan konsumen.
+                    Jika anda ingin meneruskan bisa klik I'm Order...
+                    <span className="fa-solid fa-arrow-right-long"></span>
+                  </p>
+                  <div className="d-flex ">
+                    <img
+                      src="assets/img/blog/businessman.png"
+                      className="bg-secondary rounded"
+                      width="12%"
+                    />
+                    <div className=" d-flex align-items-center mx-md-2">
+                      <div>
+                        <h6>
+                          By: Mekki Patria <br />
+                          <span className="text-sub-blog">Just now</span>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
