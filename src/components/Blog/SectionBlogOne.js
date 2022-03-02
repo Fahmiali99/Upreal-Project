@@ -27,7 +27,7 @@ function SectionBlogOne() {
                           <input
                             type="text"
                             placeholder="Search.."
-                            name="search"
+                            name="search "
                             class="search2 p-2 mr-5"
                           />
 

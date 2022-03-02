@@ -366,6 +366,8 @@ p {
   background-color: #f4f5f7;
   border-radius: 15px;
   border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .button-search {
@@ -373,8 +375,12 @@ p {
   background-color: #61a1da !important;
 }
 
+.img-round {
+  border-radius: 6%;
+}
+
 /* ------------------------- */
-.customButton {
+/* .customButton {
   width: 150px;
   height: 50px;
   letter-spacing: 0.5px;
@@ -389,7 +395,7 @@ p {
 .active {
   background-color: rgb(25, 26, 24);
   border: 1.5px solid rgb(25, 26, 24);
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .tinggi {

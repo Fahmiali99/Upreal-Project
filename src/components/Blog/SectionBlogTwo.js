@@ -10,10 +10,10 @@ function SectionBlogTwo() {
               <div className=" w-100">
                 <div className="d-flex justify-content-center mt-4 mb-3">
                   <img
-                    class="img-fluid "
-                    src="/assets/img/home/baner.svg"
+                    class="img-fluid img-round"
+                    src="/assets/img/blog/desainzero.png"
                     alt=""
-                    width="95%"
+                    width="100%"
                   />
                 </div>
               </div>
@@ -38,7 +38,7 @@ function SectionBlogTwo() {
                       className="bg-secondary rounded"
                       width="12%"
                     />
-                    <div className=" d-flex align-items-center mx-md-2">
+                    <div className=" d-flex align-items-center ml-2">
                       <div>
                         <h6>
                           By: Mekki Patria <br />
