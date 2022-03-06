@@ -1,5 +1,5 @@
 import React from "react";
-// ukuran blog dan pencocokan design
+
 function SectionBlogThree() {
   return (
     <div className="pageabout-3 bg-light pt-3">
