@@ -18,13 +18,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa1.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Logo Design</h4>
-                      <Link className="" to="/Logo">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center ">
+                        <h4 className="pb-2">Logo Design</h4>
+                        <Link className="" to="/Logo">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -33,13 +35,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa2.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Flyer design</h4>
-                      <Link className="" to="/Flyer">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center">
+                        <h4 className="pb-2">Flyer design</h4>
+                        <Link className="" to="/Flyer">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -48,13 +52,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa3.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Poster design</h4>
-                      <Link className="" to="/Poster">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center ">
+                        <h4 className="pb-2">Poster design</h4>
+                        <Link className="" to="/Poster">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -63,13 +69,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa4.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Instagram feed design</h4>
-                      <Link className="" to="/Instagram">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center ">
+                        <h4 className="pb-2">Instagram feed design</h4>
+                        <Link className="" to="/Instagram">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -78,13 +86,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa5.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Video editor</h4>
-                      <Link className="" to="/Video">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center ">
+                        <h4 className="pb-2">Video editor</h4>
+                        <Link className="" to="/Video">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -93,13 +103,15 @@ const Service = () => {
                     <div className="container text-center p-3 color-content rad-home">
                       <img src="/assets/img/home/fa6.png" alt="" width="50%" />
                     </div>
-                    <div className="container text-center mt-3">
-                      <h4>Many more</h4>
-                      <Link className="" to="/More">
-                        <button type="button" class="btn btn-success mt-3 mb-4">
-                          Order Now
-                        </button>
-                      </Link>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <div className="container text-center ">
+                        <h4 className="pb-2">Many more</h4>
+                        <Link className="" to="/More">
+                          <button type="button" class="btn btn-success ">
+                            Order Now
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
