@@ -3,10 +3,10 @@ import React from "react";
 const SectionHomeZero = () => {
   return (
     <div classNameName="homepage ">
-      <div className="container-fluid p-md-5">
-        <div className="">
-          <div className=" row flex-center">
-            <div class="col-sm-5 order-md-1 ">
+      <div className="w-100 d-flex justify-content-center ">
+        <div className="col-md-10 ">
+          <div className=" row flex-center ">
+            <div class="col-sm order-md-1 ">
               <div className=" w-100">
                 <div className="d-flex justify-content-center mt-4 mb-3">
                   <img
@@ -19,8 +19,8 @@ const SectionHomeZero = () => {
               </div>
             </div>
 
-            <div class="col-md-7 col-lg-6 text-center text-md-start d-flex align-items-center">
-              <div className="title-baner">
+            <div class="col-sm  text-center text-md-start d-flex align-items-center">
+              <div className="">
                 <div className="title-inside">
                   <h1 class="">
                     Butuh desain ?<br />

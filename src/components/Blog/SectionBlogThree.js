@@ -53,7 +53,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />
@@ -95,7 +95,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />
@@ -138,7 +138,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />
@@ -222,7 +222,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />
@@ -307,7 +307,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />
@@ -349,7 +349,7 @@ function SectionBlogThree() {
                 <div>
                   <img
                     className="img-round"
-                    src="assets/img/blog/desain3.png"
+                    src="assets/img/blog/desain.png"
                     alt=""
                     width="100%"
                   />

@@ -379,6 +379,14 @@ p {
   border-radius: 6%;
 }
 
+.rad-home-parent {
+  border-radius: 20px !important;
+}
+
+.rad-home {
+  border-radius: 20px 20px 0px 0px !important;
+}
+
 @media only screen and (max-width: 900px) {
   .tinggi {
     height: auto;
@@ -429,7 +437,7 @@ p {
   }
 
   .client-w {
-    width: 85%;
+    width: 91%;
   }
   .client-mobile {
     display: flex;
