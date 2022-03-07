@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="d-flex justify-content-center bg-dark navbar-big w-100 position-fixed navbar-depan ">
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs">
-        <div className="container-fluid ">
-          <div className="container-fluid w-100 ">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-10 ">
+        <div className="container-fluid  w-100">
+          <div className="container-sm w-100">
             <a className=" navbar-brand fw-bold fs-4 font-italic " href="#">
               UPREAL
             </a>

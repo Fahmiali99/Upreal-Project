@@ -5,12 +5,12 @@ function SectionTwo() {
     <div className="aboutpage-2">
       <div className=" ">
         <div className="w-100 d-flex justify-content-center">
-          <div className="col-md-9">
+          <div className="col-md-10">
             <div className="row ">
               <div className="col-sm ">
                 <div className=" pt-3 h-100 d-flex align-items-center">
                   <div className="">
-                    <h2>Cees have Solutions</h2>
+                    <h2>Cees have Solutions about</h2>
                     <h2 className="sec-two-about"> that provide your</h2>
                     <div className="d-flex">
                       <a

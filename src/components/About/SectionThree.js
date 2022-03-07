@@ -4,7 +4,7 @@ function SectionThree() {
   return (
     <div className="aboutpage-3">
       <div className="w-100 d-flex justify-content-center pt-5 pb-5">
-        <div className=" col-md-9">
+        <div className=" col-md-10">
           <div className="title-about text-center">
             <h1>Structur in Upreal</h1>
           </div>

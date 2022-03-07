@@ -5,7 +5,7 @@ function SectionFour() {
     <div className="banner-map">
       <div className="sub-banner-map position-absolute"></div>
       <div className="w-100 d-flex justify-content-center parent-tax ">
-        <div className="col-md-9 ">
+        <div className="col-md-10 ">
           <div class="pb-5 pt-4 mt-4">
             <div className="pb-3">
               <h1 className="text-center">Lokasi kami saat ini</h1>

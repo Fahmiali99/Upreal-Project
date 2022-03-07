@@ -4,9 +4,9 @@ function SeactionOne() {
   return (
     <div className="aboutpage pt-3 pb-3">
       <div className="w-100 d-flex justify-content-center">
-        <div className="col-md-9">
+        <div className="col-md-10">
           <div className="row ">
-            <div className="col-sm-5 order-md-1">
+            <div className="col-sm order-md-1">
               <div className="">
                 <img
                   className="img-fluid"
@@ -16,7 +16,7 @@ function SeactionOne() {
                 />
               </div>
             </div>
-            <div className="col-md-7 col-lg-6">
+            <div className="col-sm ">
               <div className=" d-flex align-items-center w-100 h-100">
                 <div className="">
                   <h2>

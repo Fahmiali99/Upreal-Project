@@ -34,10 +34,6 @@ p {
   width: 100%;
 }
 
-.navs {
-  width: 75%;
-}
-
 .title-baner {
   width: 100%;
   /* background-color: #cbd1ff; */
@@ -329,7 +325,7 @@ p {
 }
 
 .sub-about {
-  width: 75%;
+  width: 80%;
 }
 
 .sub-banner-map {
@@ -490,6 +486,6 @@ p {
   .sec-two-about {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 }
