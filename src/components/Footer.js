@@ -3,13 +3,13 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer w-100 bg-dark  ">
-      <div className="container-fluid w-100 d-flex justify-content-center mt-5 mb-1">
-        <div className=" col-10 pb-0">
+      <div className="container-fluid col-md-10 w-100 d-flex justify-content-center mt-5 mb-1">
+        <div className=" pb-0">
           <section className="">
             <div className="row g-0">
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold text-white text-decoration-none">
-                  <h4 className="text-white">Company name</h4>
+                  <h5 className="text-white">Company name</h5>
                 </h6>
                 <img
                   className="w-100 text-center"
@@ -23,7 +23,7 @@ const Footer = () => {
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                  <h4 className="text-white">Products</h4>
+                  <h5 className="text-white">Products</h5>
                 </h6>
                 <p>
                   <a className="text-white text-decoration-none sub-footer">
@@ -51,7 +51,7 @@ const Footer = () => {
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                  <h4 className="text-white">About</h4>
+                  <h5 className="text-white">About</h5>
                 </h6>
                 <p>
                   <a className="text-white text-decoration-none">
@@ -66,7 +66,7 @@ const Footer = () => {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                  <h4 className="text-white">Contact</h4>
+                  <h5 className="text-white">Contact</h5>
                 </h6>
                 <p className="text-white">
                   <p className="sub-footer">
@@ -87,8 +87,7 @@ const Footer = () => {
                   </p>
                 </p>
                 <div class=" mb-4 mb-md-0">
-                  <h3 className="text-white">Subscribe</h3>
-
+                  /
                   <form action="#" class="subscribe">
                     <input
                       type="text"
@@ -128,27 +127,27 @@ const Footer = () => {
                   role="button"
                   href="https://www.instagram.com/uprealhomecreative/"
                 >
-                  <i className="fab fa-instagram mr-2 icon-media-footer"></i>
+                  <i className="fab fa-instagram  icon-media-footer"></i>
                 </a>
                 <a
                   className="btn btn-floating m-1 border-0 text-white"
                   role="button"
                 >
-                  <i className="fab fa-facebook-f mr-2 icon-media-footer"></i>
-                </a>
-
-                <a
-                  className="btn btn-floating m-1 border-0 text-white"
-                  role="button"
-                >
-                  <i className="fab fa-twitter mr-2 icon-media-footer"></i>
+                  <i className="fab fa-facebook-f icon-media-footer"></i>
                 </a>
 
                 <a
                   className="btn btn-floating m-1 border-0 text-white"
                   role="button"
                 >
-                  <i className="fab fa-google mr-2 icon-media-footer"></i>
+                  <i className="fab fa-twitter icon-media-footer"></i>
+                </a>
+
+                <a
+                  className="btn btn-floating m-1 border-0 text-white"
+                  role="button"
+                >
+                  <i className="fab fa-google icon-media-footer"></i>
                 </a>
               </div>
             </div>
