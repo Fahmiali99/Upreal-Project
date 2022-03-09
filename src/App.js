@@ -13,10 +13,12 @@ import Poster from "./components/Service/Poster/Poster";
 import Instagram from "./components/Service/Instagram/Instagram";
 import Video from "./components/Service/Video/Video";
 import More from "./components/Service/More/More";
+import Black from "./components/Black";
 
 export default function App() {
   return (
     <div>
+      <Black />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
