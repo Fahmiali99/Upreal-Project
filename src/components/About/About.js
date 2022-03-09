@@ -1,4 +1,5 @@
 import React from "react";
+import Up from "../Up";
 import SectionAboutZero from "./SectionAboutZero";
 import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
@@ -7,7 +8,7 @@ import SectionTwo from "./SectionTwo";
 
 const About = () => {
   return (
-    <div className="bg-light">
+    <div className="bg-light ">
       <div className="uprise">
         <figure class="bg-decoration-circle-left z-index-1" aria-hidden="true">
           <img
@@ -28,6 +29,7 @@ const About = () => {
           />
         </figure> */}
       </div>
+
       <SectionAboutZero />
       <SectionTwo />
       <SectionOne />
