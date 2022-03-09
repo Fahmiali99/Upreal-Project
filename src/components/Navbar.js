@@ -10,7 +10,7 @@ window.onscroll = function (x) {
 
     document.getElementById("navbar").style.position = "fixed";
   } else {
-    document.getElementById("navbar").style.top = "0p";
+    document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "none";
   }
   prevScrollpos = currentScrollPos;
