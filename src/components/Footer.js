@@ -14,7 +14,7 @@ const Footer = () => {
                 <img
                   className="w-100 text-center"
                   src="/assets/img/upreal-white.png"
-                  alt=""
+                  alt=" "
                   width="100%"
                 />
               </div>

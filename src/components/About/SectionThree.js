@@ -15,7 +15,7 @@ function SectionThree() {
                 <div className="d-flex">
                   <img
                     src="assets/img/about/aboutIcons/chatting.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
@@ -34,7 +34,7 @@ function SectionThree() {
                 <div className="d-flex justify-content-end">
                   <img
                     src="assets/img/about/aboutIcons/3d.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
@@ -53,7 +53,7 @@ function SectionThree() {
                 <div className="d-flex ">
                   <img
                     src="assets/img/about/aboutIcons/deadline.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
@@ -72,7 +72,7 @@ function SectionThree() {
                 <div className="d-flex justify-content-end">
                   <img
                     src="assets/img/about/aboutIcons/diagram.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
@@ -91,7 +91,7 @@ function SectionThree() {
                 <div className="d-flex ">
                   <img
                     src="assets/img/about/aboutIcons/plan.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
@@ -110,7 +110,7 @@ function SectionThree() {
                 <div className="d-flex justify-content-end">
                   <img
                     src="assets/img/about/aboutIcons/tour.png"
-                    alt=""
+                    alt=" "
                     width="15%"
                     height="15%"
                   />
