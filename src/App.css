@@ -478,9 +478,6 @@ p {
   .icon-media-footer {
     font-size: 100%;
   }
-  .footes {
-    padding-bottom: 30%;
-  }
 }
 
 @media only screen and (max-width: 500px) {

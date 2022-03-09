@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import SectionAboutZero from "./SectionAboutZero";
 import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
