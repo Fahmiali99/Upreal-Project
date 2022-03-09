@@ -5,12 +5,12 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function (x) {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
 
     document.getElementById("navbar").style.position = "fixed";
   } else {
-    document.getElementById("navbar").style.top = "0";
+    // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "none";
   }
   prevScrollpos = currentScrollPos;
