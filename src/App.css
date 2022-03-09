@@ -480,6 +480,10 @@ p {
     width: 100%;
     height: 100%;
   }
+
+  #navbar .navfit {
+    font-size: 15px !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -488,4 +492,33 @@ p {
     display: flex;
     justify-content: left;
   }
+}
+
+/* NAVBAR */
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar .navfit {
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "poppins", sans-serif;
+}
+
+#navbar .navfit:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: "poppins", sans-serif;
 }

@@ -1,13 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.boxShadow = "0px 5px 15px #888888";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+    document.getElementById("navbar").style.boxShadow = "none";
+  }
+  prevScrollpos = currentScrollPos;
+};
+
 function Navbar() {
   return (
-    <div className="d-flex justify-content-center bg-dark navbar-big w-100 position-fixed navbar-depan ">
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-10 ">
+    <div
+      id="navbar"
+      className="d-flex justify-content-center bg-dark navbar-big w-100 position-fixed  navbar-depan "
+    >
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-10 pt-3 pb-3">
         <div className="container-fluid  w-100">
           <div className="container-sm w-100">
-            <a className=" navbar-brand fw-bold fs-4 font-italic " href="#">
+            <a className=" navbar-brand fw-bold fs-2 font-italic " href="#">
               UPREAL
             </a>
 
@@ -21,28 +37,28 @@ function Navbar() {
             </button>
           </div>
 
-          <div className=" collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav d-flex align-items-center">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">
+          <div className=" collapse navbar-collapse " id="collapsibleNavbar">
+            <ul className="navbar-nav d-flex align-items-center justify-content-end w-100">
+              <li className="nav-item ">
+                <Link className="nav-link navfit mx-md-2" to="/">
                   Home
                 </Link>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link" to="/About">
+              <li className="nav-item ">
+                <Link className="nav-link navfit mx-md-2" to="/About">
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Blog">
+              <li className="nav-item ">
+                <Link className="nav-link navfit mx-md-2" to="/Blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/Contact">
+                <Link className="nav-link navfit" to="/Contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
