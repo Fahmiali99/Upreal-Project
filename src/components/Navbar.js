@@ -7,8 +7,6 @@ window.onscroll = function (x) {
   if (prevScrollpos > currentScrollPos) {
     // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
-
-    document.getElementById("navbar").style.position = "fixed";
   } else {
     // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "none";
