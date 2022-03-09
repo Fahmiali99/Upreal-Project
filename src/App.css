@@ -18,6 +18,16 @@ p {
   color: #6c757d;
 }
 
+.sub-footer {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.icon-media-footer {
+  font-size: 25px;
+}
+
 .text-sub-blog {
   font-family: "Poppins", sans-serif;
   color: #6c757d;
@@ -459,6 +469,18 @@ p {
   .sub-about {
     width: 100%;
   }
+  .sub-footer {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .icon-media-footer {
+    font-size: 100%;
+  }
+  .footes {
+    padding-bottom: 30%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -521,4 +543,33 @@ p {
   background-color: #ddd;
   color: black;
   font-family: "poppins", sans-serif;
+}
+
+.subscribe {
+  position: relative;
+}
+
+.btn-submits {
+  background: #614ad3 !important;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.form-control {
+  background-color: lighten(#ccc, 10%);
+  box-shadow: none;
+  border-radius: 30px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 130px;
+  border: none;
+  color: #343a40;
 }
