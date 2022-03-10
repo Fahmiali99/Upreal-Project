@@ -28,12 +28,12 @@ function Navbar() {
             </a>
 
             <button
-              className="navbar-toggler "
+              className="navbar-toggler text-white"
               type="button"
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
             >
-              <span className="navbar-toggler-icon text-white"></span>
+              <span className="navbar-toggler-icon "></span>
             </button>
           </div>
 
