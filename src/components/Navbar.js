@@ -28,7 +28,7 @@ function Navbar() {
             </a>
 
             <button
-              className="navbar-toggler btn-white"
+              className="navbar-toggler btn-light"
               type="button"
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
