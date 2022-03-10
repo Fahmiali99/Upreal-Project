@@ -87,7 +87,6 @@ const Footer = () => {
                   </p>
                 </p>
                 <div class=" mb-4 mb-md-0">
-                  /
                   <form action="#" class="subscribe">
                     <input
                       type="text"
