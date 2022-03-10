@@ -33,7 +33,7 @@ function Navbar() {
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon text-white"></span>
             </button>
           </div>
 
