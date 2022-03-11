@@ -5,10 +5,8 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function (x) {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
   } else {
-    // document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.boxShadow = "none";
   }
   prevScrollpos = currentScrollPos;
@@ -33,7 +31,7 @@ function Navbar() {
               data-toggle="collapse"
               data-target="#collapsibleNavbar"
             >
-              <span className="navbar-toggler-icon text-light"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
           </div>
 
