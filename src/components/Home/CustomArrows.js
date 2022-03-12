@@ -41,7 +41,7 @@ export default class CustomArrows extends Component {
                 </p>
               </div>
             </div>
-            {/* <div className="mt-5 mb-5 pt-5 pb-5"></div> */}
+
             <Slider {...settings} className="arr mt-5 mb-5 pt-4 pb-4">
               <div>
                 <div className="m-2">
