@@ -128,10 +128,6 @@ p {
   justify-content: center;
 }
 
-.client-w {
-  width: 75%;
-}
-
 .bor-client {
   border-block-end: thick double #32a1ce;
   writing-mode: vertical-lr;
