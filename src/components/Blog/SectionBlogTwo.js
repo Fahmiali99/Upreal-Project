@@ -37,6 +37,7 @@ function SectionBlogTwo() {
                       src="assets/img/blog/businessman.png"
                       className="bg-secondary rounded"
                       width="12%"
+                      alt=""
                     />
                     <div className=" d-flex align-items-center ml-2">
                       <div>

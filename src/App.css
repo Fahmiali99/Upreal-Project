@@ -8,18 +8,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto", sans-serif;
-
+  font-family: "Poppins", sans-serif;
   color: #343a40;
+  font-weight: 800 !important;
 }
-
-/* .homessss {
-  background: url("../public/assets/img/home/bs.jpg");
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  background-size: cover;
-} */
 
 p {
   font-family: "Poppins", sans-serif;
@@ -117,12 +109,6 @@ p {
   transition: 0.5s ease-in-out;
 }
 
-/* .client-w {
-  width: 75%;
-} */
-
-/* Light */
-
 .shadow-bg-one {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
@@ -162,11 +148,6 @@ p {
   padding: 1rem !important;
   border-radius: 0% 50% 0% 0% !important;
 }
-
-/* .badge {
-    padding: none;
-    background-color: white;
-  } */
 
 .service-background {
   background-color: #eeeeee;
@@ -269,7 +250,7 @@ p {
   top: 50px;
   display: flex;
   align-items: flex-start;
-  justify-content: end;
+  /* justify-content: end; */
   pointer-events: none;
   width: 100%;
   height: 100vh;
@@ -312,7 +293,6 @@ p {
 }
 
 .aboutpage-2 {
-  /* background-color: #c7ddf8; */
   background-image: linear-gradient(to top right, #c7ddf8, #ffffff);
 }
 
@@ -520,7 +500,7 @@ p {
 }
 
 /* NAVBAR */
-#navbar {
+/* #navbar {
   overflow: hidden;
   background-color: #f1f1f1;
 
@@ -529,7 +509,7 @@ p {
   width: 100%;
   top: 0;
   z-index: 99;
-}
+} */
 
 #navbar .navfit {
   color: white;

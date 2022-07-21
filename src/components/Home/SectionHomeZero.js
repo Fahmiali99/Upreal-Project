@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 import React from "react";
 
 const SectionHomeZero = () => {
@@ -5,7 +6,7 @@ const SectionHomeZero = () => {
     <div classNameName="homepage ">
       <div className="homessss">
         <div className="w-100 d-flex justify-content-center ">
-          <div className="col-md-10 ">
+          <Container>
             <div className=" row flex-center ">
               <div class="col-sm order-md-1 ">
                 <div className=" w-100">
@@ -43,7 +44,7 @@ const SectionHomeZero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </div>
       </div>
     </div>

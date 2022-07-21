@@ -26,22 +26,25 @@ const Footer = () => {
                   <h5 className="text-white">Products</h5>
                 </h6>
                 <p>
-                  <a className="text-white text-decoration-none sub-footer">
+                  <a
+                    className="text-white text-decoration-none sub-footer"
+                    href="/"
+                  >
                     <p className="sub-footer">Logo Design</p>
                   </a>
                 </p>
                 <p>
-                  <a className="text-white text-decoration-none">
+                  <a className="text-white text-decoration-none" href="/">
                     <p className="sub-footer">Flyer design</p>
                   </a>
                 </p>
                 <p>
-                  <a className="text-white text-decoration-none">
+                  <a className="text-white text-decoration-none" href="/">
                     <p className="sub-footer">Poster design</p>
                   </a>
                 </p>
                 <p>
-                  <a className="text-white text-decoration-none">
+                  <a className="text-white text-decoration-none" href="/">
                     <p className="sub-footer">Instagram feed design</p>
                   </a>
                 </p>
@@ -54,11 +57,11 @@ const Footer = () => {
                   <h5 className="text-white">About</h5>
                 </h6>
                 <p>
-                  <a className="text-white text-decoration-none">
+                  <p className="text-white text-decoration-none">
                     <p className="sub-footer">
                       Anda dapat menemukan banyak jasa di sini
                     </p>
-                  </a>
+                  </p>
                 </p>
               </div>
 
@@ -130,6 +133,7 @@ const Footer = () => {
                 </a>
                 <a
                   className="btn btn-floating m-1 border-0 text-white"
+                  href="/"
                   role="button"
                 >
                   <i className="fab fa-facebook-f icon-media-footer"></i>
@@ -138,6 +142,7 @@ const Footer = () => {
                 <a
                   className="btn btn-floating m-1 border-0 text-white"
                   role="button"
+                  href="/"
                 >
                   <i className="fab fa-twitter icon-media-footer"></i>
                 </a>
@@ -145,6 +150,7 @@ const Footer = () => {
                 <a
                   className="btn btn-floating m-1 border-0 text-white"
                   role="button"
+                  href="/"
                 >
                   <i className="fab fa-google icon-media-footer"></i>
                 </a>

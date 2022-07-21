@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 var prevScrollpos = window.pageYOffset;
@@ -18,10 +19,10 @@ function Navbar() {
       id="navbar"
       className="d-flex justify-content-center bg-dark navbar-big w-100 position-fixed  navbar-depan "
     >
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-10 pt-2 pb-2">
-        <div className="container-fluid  w-100">
-          <div className="container-sm w-100">
-            <a className=" navbar-brand fw-bold fs-2 font-italic " href="#">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-12 pt-2 pb-2">
+        <Container>
+          <Container>
+            <a className=" navbar-brand fw-bold fs-2 font-italic " href="/">
               UPREAL
             </a>
 
@@ -33,7 +34,7 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-          </div>
+          </Container>
 
           <div className=" collapse navbar-collapse " id="collapsibleNavbar">
             <ul className="navbar-nav d-flex align-items-center justify-content-end w-100">
@@ -60,7 +61,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </nav>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import Up from "../Up";
 import SectionAboutZero from "./SectionAboutZero";
 import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
@@ -19,16 +18,7 @@ const About = () => {
           />
         </figure>
       </div>
-      <div className="uprise">
-        {/* <figure class="bg-decoration-circle-right z-index-1" aria-hidden="true">
-          <img
-            class=""
-            src="/assets/background/About/Frames1.png"
-            alt="bg"
-            width="200px"
-          />
-        </figure> */}
-      </div>
+      <div className="uprise"></div>
 
       <SectionAboutZero />
       <SectionTwo />
