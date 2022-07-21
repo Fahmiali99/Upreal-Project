@@ -30,11 +30,11 @@ export default class CustomArrows extends Component {
     return (
       <div className="w-100 d-flex justify-content-center">
         <div className="col-md-10">
-          <div className=" pb-5 dekstop-carousel mt-5 mb-5 pt-5 pb-5">
+          <div className="  dekstop-carousel mt-5 mb-5 pt-5 pb-5">
             <div className="text-center title-konsumen">
               <div className="w-75">
-                <h2>Tanggapan Pelanggan</h2>
-                <p>
+                <h2 className="text-light">Tanggapan Pelanggan</h2>
+                <p className="text-light">
                   Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang
                   ditempatkan untuk mendemostrasikan elemen grafis atau
                   presentasi visual seperti font, tipografi, dan tata letak.

@@ -5,7 +5,7 @@ function SectionBlogOne() {
     <div>
       <section className="py-4 client-center">
         <div className="  client-w">
-          <div className="card py-5 border-0  shadow-bg-one">
+          <div className="card bg-dark py-5 border-0  shadow-bg-one">
             <div className="card-body">
               <div className="row">
                 <div className="col-4 client-mobile ">
@@ -25,8 +25,10 @@ function SectionBlogOne() {
                       </div>
                     </div>
                     <div className="mx-1">
-                      <p className="fw-bolder text-1000 mb-0">90+ </p>
-                      <p className="mb-0">Happy Clients </p>
+                      <p className="fw-bolder text-1000 mb-0 text-light">
+                        90+{" "}
+                      </p>
+                      <p className="mb-0 text-light">Happy Clients </p>
                     </div>
                   </div>
                 </div>
@@ -47,8 +49,8 @@ function SectionBlogOne() {
                       </div>
                     </div>
                     <div className="mx-1">
-                      <p className="fw-bolder text-1000 mb-0">3 </p>
-                      <p className="mb-0">Negara</p>
+                      <p className="fw-bolder text-1000 mb-0 text-light">3 </p>
+                      <p className="mb-0 text-light">Negara</p>
                     </div>
                   </div>
                 </div>
@@ -69,8 +71,10 @@ function SectionBlogOne() {
                       </div>
                     </div>
                     <div className="mx-1">
-                      <p className="fw-bolder text-1000 mb-0">1600+ </p>
-                      <p className="mb-0">Project Selesai </p>
+                      <p className="fw-bolder text-1000 mb-0 text-light">
+                        1600+{" "}
+                      </p>
+                      <p className="mb-0 text-light">Project Selesai </p>
                     </div>
                   </div>
                 </div>

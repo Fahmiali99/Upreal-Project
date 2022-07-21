@@ -2,24 +2,24 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function (x) {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
-  } else {
-    document.getElementById("navbar").style.boxShadow = "none";
-  }
-  prevScrollpos = currentScrollPos;
-};
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function (x) {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
+//   } else {
+//     document.getElementById("navbar").style.boxShadow = "none";
+//   }
+//   prevScrollpos = currentScrollPos;
+// };
 
 function Navbar() {
   return (
     <div
       id="navbar"
-      className="d-flex justify-content-center bg-dark navbar-big w-100 position-fixed  navbar-depan "
+      className="d-flex justify-content-center navbar-big w-100  navbar-depan border-bottom border-secondary"
     >
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark navs col-md-12 pt-2 pb-2">
+      <nav className="navbar navbar-expand-md  navbar-dark navs col-md-12 pt-2 pb-2">
         <Container>
           <Container>
             <a className=" navbar-brand fw-bold fs-2 font-italic " href="/">

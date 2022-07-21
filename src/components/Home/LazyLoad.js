@@ -29,11 +29,11 @@ export default class LazyLoad extends Component {
       nextArrow: <SlickArrowRight />,
     };
     return (
-      <div className="container mt-4 mb-4">
+      <div className="container ">
         <div className="container">
           <div className="container-fluid pb-5 dekstop-mobile">
             <div className="text-center title-konsumen-two">
-              <div className="">
+              <div className="mt-4 mb-4">
                 <h2>Tanggapan Pelanggan</h2>
                 <p>
                   Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang

@@ -16,7 +16,7 @@ import More from "./components/Service/More/More";
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
