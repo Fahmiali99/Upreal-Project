@@ -4,7 +4,7 @@
 }
 
 .App {
-  background-color: #161616;
+  background-color: #111111;
 }
 
 h1,
@@ -120,12 +120,6 @@ p {
 .tz-gallery .lightbox:hover {
   transform: scale(1.05);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.client-center {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .bor-client {
