@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LeftArrow from "../assets/left-arrow.svg";
 import RightArrow from "../assets/right-arrow.svg";
+import { Container, Image } from "react-bootstrap";
 
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
@@ -29,8 +30,8 @@ export default class CustomArrows extends Component {
     };
     return (
       <div className="w-100 d-flex justify-content-center">
-        <div className="container">
-          <div className="  dekstop-carousel mt-5 mb-5 pt-5 pb-5">
+        <Container>
+          <div className="dekstop-carousel mt-5 mb-5 pt-5 pb-5">
             <div className="text-center title-konsumen">
               <div className="w-75">
                 <h2 className="text-light">Tanggapan Pelanggan</h2>
@@ -45,16 +46,16 @@ export default class CustomArrows extends Component {
             <Slider {...settings} className="arr mt-5 mb-5 pt-4 pb-4">
               <div>
                 <div className="m-2">
-                  <div className="container card">
+                  <Container className=" card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
                         width="20%"
                       />
                     </div>
-                    <div className="container text-center mt-2">
+                    <Container className=" text-center mt-2">
                       <h4>Fahmi Ali Husni</h4>
                       <div className="d-flex justify-content-center">
                         <svg
@@ -114,22 +115,22 @@ export default class CustomArrows extends Component {
                         atau presentasi visual seperti font, tipografi, dan tata
                         letak.
                       </p>
-                    </div>
-                  </div>
+                    </Container>
+                  </Container>
                 </div>
               </div>
               <div>
                 <div className="m-2">
-                  <div className="container card">
+                  <Container className=" card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
                         width="20%"
                       />
                     </div>
-                    <div className="container text-center mt-2">
+                    <Container className=" text-center mt-2">
                       <h4>Fahmi Ali Husni</h4>
                       <div className="d-flex justify-content-center">
                         <svg
@@ -189,22 +190,22 @@ export default class CustomArrows extends Component {
                         atau presentasi visual seperti font, tipografi, dan tata
                         letak.
                       </p>
-                    </div>
-                  </div>
+                    </Container>
+                  </Container>
                 </div>
               </div>
               <div>
                 <div className="m-2">
-                  <div className="container card">
+                  <Container className=" card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
                         width="20%"
                       />
                     </div>
-                    <div className="container text-center mt-2">
+                    <Container className="text-center mt-2">
                       <h4>Fahmi Ali Husni</h4>
                       <div className="d-flex justify-content-center">
                         <svg
@@ -264,22 +265,22 @@ export default class CustomArrows extends Component {
                         atau presentasi visual seperti font, tipografi, dan tata
                         letak.
                       </p>
-                    </div>
-                  </div>
+                    </Container>
+                  </Container>
                 </div>
               </div>
               <div>
                 <div className="m-2">
-                  <div className="container card">
+                  <Container className=" card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
                         width="20%"
                       />
                     </div>
-                    <div className="container text-center mt-2">
+                    <Container className=" text-center mt-2">
                       <h4>Fahmi Ali Husni</h4>
                       <div className="d-flex justify-content-center">
                         <svg
@@ -339,15 +340,15 @@ export default class CustomArrows extends Component {
                         atau presentasi visual seperti font, tipografi, dan tata
                         letak.
                       </p>
-                    </div>
-                  </div>
+                    </Container>
+                  </Container>
                 </div>
               </div>
               <div>
                 <div className="m-2">
-                  <div className="container card">
+                  <Container className="card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -415,12 +416,12 @@ export default class CustomArrows extends Component {
                         letak.
                       </p>
                     </div>
-                  </div>
+                  </Container>
                 </div>
               </div>
             </Slider>
           </div>
-        </div>
+        </Container>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function More() {
   function sendEmail(e) {
@@ -31,10 +32,10 @@ export default function More() {
         </div>
       </div>
 
-      <div className="container">
+      <Container>
         <form onSubmit={sendEmail}>
-          <div className="row pt-5 pb-5 ">
-            <div className="col-9 form-group mx-auto">
+          <Row className=" pt-5 pb-5 ">
+            <Col className="col-9 form-group mx-auto">
               <input
                 type="text"
                 className="form-control"
@@ -43,8 +44,8 @@ export default function More() {
                 required
                 autofocus
               />
-            </div>
-            <div className="col-9 form-group pt-2 mx-auto">
+            </Col>
+            <Col className="col-9 form-group pt-2 mx-auto">
               <input
                 type="email"
                 className="form-control"
@@ -52,8 +53,8 @@ export default function More() {
                 name="email"
                 required
               />
-            </div>
-            <div className="col-9 form-group pt-2 mx-auto">
+            </Col>
+            <Col className="col-9 form-group pt-2 mx-auto">
               <input
                 type="nummber"
                 className="form-control"
@@ -61,8 +62,8 @@ export default function More() {
                 name="nummber"
                 required
               />
-            </div>
-            <div className="col-9 form-group pt-2 mx-auto">
+            </Col>
+            <Col className="col-9 form-group pt-2 mx-auto">
               <input
                 type="text"
                 className="form-control"
@@ -70,8 +71,8 @@ export default function More() {
                 name="subject"
                 required
               />
-            </div>
-            <div className="col-9 form-group pt-2 mx-auto">
+            </Col>
+            <Col className="col-9 form-group pt-2 mx-auto">
               <textarea
                 className="form-control"
                 id=""
@@ -81,17 +82,17 @@ export default function More() {
                 name="message"
                 required
               ></textarea>
-            </div>
-            <div className="col-9 pt-3 mx-auto">
+            </Col>
+            <Col className="col-9 pt-3 mx-auto">
               <input
                 type="submit"
                 className="btn btn-outline-primary"
                 value="Send Message"
               ></input>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </form>
-      </div>
+      </Container>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LeftArrow from "../assets/left-arrow.svg";
 import RightArrow from "../assets/right-arrow.svg";
+import { Container, Image } from "react-bootstrap";
 
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
@@ -29,13 +30,13 @@ export default class LazyLoad extends Component {
       nextArrow: <SlickArrowRight />,
     };
     return (
-      <div className="container ">
-        <div className="container">
+      <Container>
+        <Container>
           <div className="container-fluid pb-5 dekstop-mobile">
             <div className="text-center title-konsumen-two">
               <div className="mt-4 mb-4">
-                <h2>Tanggapan Pelanggan</h2>
-                <p>
+                <h2 className="text-white">Tanggapan Pelanggan</h2>
+                <p className="text-white">
                   Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang
                   ditempatkan untuk .
                 </p>
@@ -46,7 +47,7 @@ export default class LazyLoad extends Component {
                 <div className="m-2">
                   <div className="container card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -121,7 +122,7 @@ export default class LazyLoad extends Component {
                 <div className="m-2">
                   <div className="container card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -196,7 +197,7 @@ export default class LazyLoad extends Component {
                 <div className="m-2">
                   <div className="container card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -271,7 +272,7 @@ export default class LazyLoad extends Component {
                 <div className="m-2">
                   <div className="container card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -346,7 +347,7 @@ export default class LazyLoad extends Component {
                 <div className="m-2">
                   <div className="container card">
                     <div className="d-flex justify-content-center">
-                      <img
+                      <Image
                         className="rounded-circle mt-2"
                         src="https://yt3.ggpht.com/ytc/AKedOLTTSddmm3jeJC0tgeOEUcFpMAe1Dy4DeuwpNLPfpw=s900-c-k-c0x00ffffff-no-rj"
                         alt=""
@@ -419,8 +420,8 @@ export default class LazyLoad extends Component {
               </div>
             </Slider>
           </div>
-        </div>
-      </div>
+        </Container>
+      </Container>
     );
   }
 }

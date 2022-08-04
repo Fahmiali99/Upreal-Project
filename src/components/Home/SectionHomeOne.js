@@ -1,13 +1,14 @@
 import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
 
 function SectionBlogOne() {
   return (
     <div>
-      <section className="py-4 container">
+      <Container className="py-4">
         <div className="card bg-dark py-5 border-0  shadow-bg-one">
           <div className="card-body">
-            <div className="row">
-              <div className="col-4 client-mobile ">
+            <Row>
+              <Col className="col-4 client-mobile ">
                 <div className="d-flex justify-content-md-center">
                   <div className=" mx-md-0 me-md-5">
                     <div className="badge badge-circle bg-soft-danger  ">
@@ -28,8 +29,8 @@ function SectionBlogOne() {
                     <p className="mb-0 text-light">Happy Clients </p>
                   </div>
                 </div>
-              </div>
-              <div className="col-4 client-mobile border-start">
+              </Col>
+              <Col className="col-4 client-mobile border-start">
                 <div className="d-flex justify-content-md-center">
                   <div className="mx-md-0 me-md-5">
                     <div className="badge badge-circle bg-soft-danger">
@@ -50,8 +51,8 @@ function SectionBlogOne() {
                     <p className="mb-0 text-light">Negara</p>
                   </div>
                 </div>
-              </div>
-              <div className="col-4 client-mobile border-start">
+              </Col>
+              <Col className="col-4 client-mobile border-start">
                 <div className="d-flex justify-content-md-center">
                   <div className="mx-md-0 me-md-5">
                     <div className="badge badge-circle bg-soft-danger">
@@ -74,11 +75,11 @@ function SectionBlogOne() {
                     <p className="mb-0 text-light">Project Selesai </p>
                   </div>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </div>
-      </section>
+      </Container>
     </div>
   );
 }
