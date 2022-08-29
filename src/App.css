@@ -4,7 +4,7 @@
 }
 
 .App {
-  background-color: #111111;
+  background-color: #313131;
 }
 
 h1,
@@ -19,6 +19,13 @@ h5 {
 p {
   color: #6c757d;
   font-family: "Montserrat", sans-serif;
+}
+
+.home-image {
+  background-image: url("../src/components/assets/img/home/bg-zero.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
 }
 
 .sub-footer {
@@ -55,7 +62,7 @@ p {
 }
 
 .title-inside {
-  width: 70%;
+  width: 50%;
 }
 
 .tinggi {
@@ -139,10 +146,6 @@ p {
   border-radius: 0% 50% 0% 0% !important;
 }
 
-#layanan {
-  background-color: #191a19;
-}
-
 .title-konsumen {
   width: 100%;
   display: flex;
@@ -163,10 +166,10 @@ p {
   height: 500px;
 }
 
-.banner-blog-parent {
-  background: url(../public/assets/img/Blog/Artboard.png);
+/* .banner-blog-parent {
+  background: url("../src/assets/img/Blog/Artboard.png");
   width: 100%;
-}
+} */
 
 .cscs {
   margin-bottom: -25rem;
@@ -187,12 +190,12 @@ p {
   border-radius: 20px;
 }
 
-.head-report {
-  background: url("../public/assets/img/Contact/report-baner.jpg");
+/* .head-report {
+  background: url("../src/assets/img/Contact/report-baner.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
-}
+} */
 
 .title-report {
   width: 100%;
@@ -312,14 +315,14 @@ p {
   width: 80%;
 }
 
-.sub-banner-map {
-  background: url("../public/assets/img/about/maps.png");
+/* .sub-banner-map {
+  background: url("../src/assets/img/about/maps.png");
   width: 100%;
   height: 70vh;
   z-index: 0;
   opacity: 20%;
   background-size: cover;
-}
+} */
 
 .parent-tax {
   z-index: -1;
@@ -333,7 +336,7 @@ p {
 .search {
   width: 100%;
   height: 50px;
-  /* border: 2px solid #effffd; */
+
   background-color: #f4f5f7;
   border-radius: 15px;
   border: none;
@@ -343,7 +346,7 @@ p {
 .search2 {
   width: 75%;
   height: 50px;
-  /* border: 2px solid #effffd; */
+
   background-color: #f4f5f7;
   border-radius: 15px;
   border: none;
@@ -358,9 +361,6 @@ p {
 
 .img-round {
   border-radius: 6%;
-}
-
-.col .card {
 }
 
 .rad-home-parent {

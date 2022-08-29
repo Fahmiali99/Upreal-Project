@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Image, Row, Container } from "react-bootstrap";
+import logo from "../../src/components/assets/img/upreal-white.png";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               </h6>
               <Image
                 className="w-100 text-center"
-                src="/assets/img/upreal-white.png"
+                src={logo}
                 alt=" "
                 width="100%"
               />
@@ -89,16 +90,16 @@ const Footer = () => {
                   +6281252188672
                 </p>
               </p>
-              <div class=" mb-4 mb-md-0">
-                <form action="#" class="subscribe">
+              <div className=" mb-4 mb-md-0">
+                <form action="#" className="subscribe">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter your e-mail"
                   />
                   <input
                     type="submit"
-                    class="btn btn-submits text-white"
+                    className="btn btn-submits text-white"
                     value="Send"
                   />
                 </form>

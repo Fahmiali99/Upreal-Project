@@ -1,36 +1,33 @@
 import * as React from "react";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
-import Logo from "./components/Service/Logo/Logo";
-import Flyer from "./components/Service/Flyer/Flyer";
-import Poster from "./components/Service/Poster/Poster";
-import Instagram from "./components/Service/Instagram/Instagram";
-import Video from "./components/Service/Video/Video";
-import More from "./components/Service/More/More";
+import Home from "./components/page/Home";
+
+import Logo from "./components/page/Service/Logo/Logo";
+import Flyer from "./components/page/Service/Flyer/Flyer";
+import Poster from "./components/page/Service/Poster/Poster";
+import Instagram from "./components/page/Service/Instagram/Instagram";
+import Video from "./components/page/Service/Video/Video";
+import More from "./components/page/Service/More/More";
 
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/About" element={<About />}></Route>
-        <Route path="/Blog" element={<Blog />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route>
-        <Route path="/Logo" element={<Logo />}></Route>
-        <Route path="/Flyer" element={<Flyer />}></Route>
-        <Route path="/Poster" element={<Poster />}></Route>
-        <Route path="/Instagram" element={<Instagram />}></Route>
-        <Route path="/Video" element={<Video />}></Route>
-        <Route path="/More" element={<More />}></Route>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/Logo" component={Logo}></Route>
+          <Route path="/Flyer" component={Flyer}></Route>
+          <Route path="/Poster" component={Poster}></Route>
+          <Route path="/Instagram" component={Instagram}></Route>
+          <Route path="/Video" component={Video}></Route>
+          <Route path="/More" component={More}></Route>
+        </Switch>
+        <Footer />
       </Routes>
-      <Footer />
     </div>
   );
 }
