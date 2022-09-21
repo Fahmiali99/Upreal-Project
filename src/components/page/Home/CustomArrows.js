@@ -6,7 +6,6 @@ import LeftArrow from "../../../assets/left-arrow.svg";
 import RightArrow from "../../../assets/right-arrow.svg";
 import { Container, Image } from "react-bootstrap";
 import reviewData from "../../../utils/review.json";
-import { useState } from "react";
 
 console.log(reviewData);
 
@@ -54,7 +53,7 @@ export default class CustomArrows extends Component {
                   <div className="m-2">
                     <Container className=" card">
                       <div className="d-flex justify-content-center">
-                        <img
+                        <Image
                           className="rounded-circle mt-2"
                           src={require("../../../assets/images/home/" +
                             item.thumbnail)}
