@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Image, Row, Container } from "react-bootstrap";
-import logo from "../../src/components/assets/img/upreal-white.png";
+import logo from "../assets/images/upreal-white.png";
 
 const Footer = () => {
   return (

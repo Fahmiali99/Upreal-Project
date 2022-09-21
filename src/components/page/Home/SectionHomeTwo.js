@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Explain from "../../assets/img/home/explain.png";
+import Explain from "../../../assets/images/home/explain.png";
 
 function SectionHomeTwo() {
   return (

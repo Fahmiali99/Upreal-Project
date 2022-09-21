@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeftArrow from "../../assets/left-arrow.svg";
-import RightArrow from "../../assets/right-arrow.svg";
-import peoplesatu from "../../assets/img/home/me.png";
+import LeftArrow from "../../../assets/left-arrow.svg";
+import RightArrow from "../../../assets/right-arrow.svg";
 import { Container, Image } from "react-bootstrap";
+import reviewData from "../../../utils/review.json";
+import { useState } from "react";
+
+console.log(reviewData);
 
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
@@ -14,37 +17,6 @@ const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
 const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
   <img src={RightArrow} alt="nextArrow" {...props} />
 );
-
-const menu = [
-  {
-    id: 1,
-    name: "Fahmi Ali",
-    story:
-      "Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.",
-    image: peoplesatu,
-  },
-  {
-    id: 2,
-    name: "Cristiano Ronaldo",
-    story:
-      "Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.",
-    image: peoplesatu,
-  },
-  {
-    id: 3,
-    name: "Budi Rudi",
-    story:
-      "Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.",
-    image: peoplesatu,
-  },
-  {
-    id: 4,
-    name: "Yudi Uwi",
-    story:
-      "Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak.",
-    image: peoplesatu,
-  },
-];
 
 export default class CustomArrows extends Component {
   render() {
@@ -77,14 +49,15 @@ export default class CustomArrows extends Component {
             </div>
 
             <Slider {...settings} className="arr mt-5 mb-5 pt-4 pb-4">
-              {menu.map((item) => (
+              {reviewData.map((item) => (
                 <div key={item.id}>
                   <div className="m-2">
                     <Container className=" card">
                       <div className="d-flex justify-content-center">
-                        <Image
+                        <img
                           className="rounded-circle mt-2"
-                          src={item.image}
+                          src={require("../../../assets/images/home/" +
+                            item.thumbnail)}
                           alt=""
                           width="20%"
                         />

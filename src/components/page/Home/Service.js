@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import imgsatu from "../../assets/img/home/fa1.png";
-import imgdua from "../../assets/img/home/fa2.png";
-import imgtiga from "../../assets/img/home/fa3.png";
-import imgempat from "../../assets/img/home/fa4.png";
-import imglima from "../../assets/img/home/fa5.png";
-import imgenam from "../../assets/img/home/fa6.png";
+import imgsatu from "../../../assets/images/home/fa1.png";
+import imgdua from "../../../assets/images/home/fa2.png";
+import imgtiga from "../../../assets/images/home/fa3.png";
+import imgempat from "../../../assets/images/home/fa4.png";
+import imglima from "../../../assets/images/home/fa5.png";
+import imgenam from "../../../assets/images/home/fa6.png";
 
 const Service = () => {
   const menu = [
