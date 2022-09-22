@@ -8,7 +8,7 @@ function SectionBlogOne() {
         <div className="card bg-transparent py-5 border-secondary  ">
           <div className="card-body">
             <Row>
-              <Col className="col-4 client-mobile ">
+              <Col className=" col-4 client-mobile ">
                 <div className="d-flex justify-content-md-center">
                   <div className=" mx-md-0 me-md-5">
                     <div className="badge-circle bg-soft-danger  ">
@@ -26,7 +26,7 @@ function SectionBlogOne() {
                   </div>
                   <div className="mx-1">
                     <p className="fw-bolder text-1000 mb-0 text-light">90+ </p>
-                    <p className="mb-0 text-light">Happy Clients </p>
+                    <p className="mb-0 text-light fw-light">Happy Clients </p>
                   </div>
                 </div>
               </Col>
@@ -48,7 +48,7 @@ function SectionBlogOne() {
                   </div>
                   <div className="mx-1">
                     <p className="fw-bolder text-1000 mb-0 text-light">3 </p>
-                    <p className="mb-0 text-light">Negara</p>
+                    <p className="mb-0 text-light fw-light ">Negara</p>
                   </div>
                 </div>
               </Col>
@@ -72,7 +72,7 @@ function SectionBlogOne() {
                     <p className="fw-bolder text-1000 mb-0 text-light">
                       1600+{" "}
                     </p>
-                    <p className="mb-0 text-light">Project Selesai </p>
+                    <p className="mb-0 text-light fw-light">Project Selesai </p>
                   </div>
                 </div>
               </Col>

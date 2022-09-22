@@ -20,7 +20,7 @@ function SectionHomeTwo() {
             className="flex justify-center text-center text-md-start text-light "
           >
             <div>
-              <h3 className="fw-medium text-light">
+              <h3 className=" font-montserrat text-light pb-3">
                 Kami Menawarkan <br />
                 Berbagai Macam Fitur Untuk Anda
               </h3>
@@ -35,7 +35,9 @@ function SectionHomeTwo() {
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                 </svg>
-                <p className="ms-2 text-light">Bebas request desain.</p>
+                <p className="ms-2 text-light font-montserratFit">
+                  Bebas request desain.
+                </p>
               </div>
               <div className="d-flex">
                 <svg
@@ -48,7 +50,9 @@ function SectionHomeTwo() {
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                 </svg>
-                <p className="ms-2 text-light">Revisi sepuasnya.</p>
+                <p className="ms-2 text-light font-montserratFit">
+                  Revisi sepuasnya.
+                </p>
               </div>
               <div className="d-flex">
                 <svg
@@ -61,7 +65,9 @@ function SectionHomeTwo() {
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                 </svg>
-                <p className="ms-2 text-light">Harga kompetitif.</p>
+                <p className="ms-2 text-light font-montserratFit">
+                  Harga kompetitif.
+                </p>
               </div>
               <div className="d-flex">
                 <svg
@@ -74,7 +80,7 @@ function SectionHomeTwo() {
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                 </svg>
-                <p className="ms-2 text-light">
+                <p className="ms-2 text-light font-montserratFit">
                   Tepat waktu & sesuai anggaran.
                 </p>
               </div>

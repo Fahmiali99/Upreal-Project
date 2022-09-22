@@ -2,17 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function (x) {
-//   var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("navbar").style.boxShadow = "0px 5px 15px #fff";
-//   } else {
-//     document.getElementById("navbar").style.boxShadow = "none";
-//   }
-//   prevScrollpos = currentScrollPos;
-// };
-
 function Navbar() {
   return (
     <div
@@ -36,7 +25,10 @@ function Navbar() {
             </button>
           </Container>
 
-          <div className=" collapse navbar-collapse " id="collapsibleNavbar">
+          <div
+            className="w-full collapse navbar-collapse "
+            id="collapsibleNavbar"
+          >
             <ul className="navbar-nav d-flex align-items-center justify-content-end w-100">
               <li className="nav-item ">
                 <Link className="nav-link navfit mx-md-1" to="/">

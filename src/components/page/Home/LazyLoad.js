@@ -36,10 +36,13 @@ export default class LazyLoad extends Component {
           <div className="container-fluid pb-5 dekstop-mobile">
             <div className="text-center title-konsumen-two">
               <div className="mt-4 mb-4">
-                <h2 className="text-white">Tanggapan Pelanggan</h2>
-                <p className="text-white">
-                  Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang
-                  ditempatkan untuk .
+                <h2 className="text-white font-montserrat">
+                  Tanggapan Pelanggan
+                </h2>
+                <p className="text-light font-montserratFit ">
+                  Masih ragu memesan di Upreal ?
+                  <br />
+                  Berikut tanggapan pelanggan yang pernah memesan di Upreal
                 </p>
               </div>
             </div>
@@ -58,7 +61,9 @@ export default class LazyLoad extends Component {
                         />
                       </div>
                       <div className="container text-center mt-2">
-                        <h4>{item.name}</h4>
+                        <h4 className=" font-montserrat text-lg">
+                          {item.name}
+                        </h4>
                         <div className="d-flex justify-content-center">
                           <svg
                             className="bi bi-star-fill"

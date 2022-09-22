@@ -10,7 +10,7 @@ const Footer = () => {
           <Row className=" g-0">
             <Col md={4} lg={3} xl={4} className=" mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white text-decoration-none">
-                <h5 className="text-white">Company name</h5>
+                <h5 className="text-white font-montserrat">Company name</h5>
               </h6>
               <Image
                 className="w-100 text-center"
@@ -20,11 +20,11 @@ const Footer = () => {
               />
             </Col>
 
-            <hr className="w-100 bg-secondary  d-md-none" />
+            <hr className="w-100 bg-light h-px d-md-none" />
 
             <Col md={4} lg={3} xl={2} className=" mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                <h5 className="text-white">Products</h5>
+                <h5 className="text-white font-montserrat">Products</h5>
               </h6>
               <p>
                 <a
@@ -51,11 +51,11 @@ const Footer = () => {
               </p>
             </Col>
 
-            <hr className="w-100 bg-secondary   d-md-none" />
+            <hr className="w-100 bg-light h-px d-md-none" />
 
             <Col md={4} lg={3} xl={2} className=" mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                <h5 className="text-white">About</h5>
+                <h5 className="text-white font-montserrat">About</h5>
               </h6>
               <p>
                 <p className="text-white text-decoration-none">
@@ -66,15 +66,15 @@ const Footer = () => {
               </p>
             </Col>
 
-            <hr className="w-100 bg-secondary   d-md-none" />
+            <hr className="w-100 bg-light h-px d-md-none" />
 
             <Col md={4} lg={3} xl={3} className=" mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold text-white">
-                <h5 className="text-white">Contact</h5>
+                <h5 className="text-white font-montserrat">Contact</h5>
               </h6>
               <p className="text-white">
                 <p className="sub-footer">
-                  <i className="fas fa-home mr-3 text-white"></i> Sumbersari,
+                  <i className="fas fa-home mr-3 text-white"></i>Sumbersari,
                   Jember
                 </p>
               </p>
@@ -86,28 +86,25 @@ const Footer = () => {
               </p>
               <p className="text-white">
                 <p className="sub-footer">
-                  <i className="fas fa-phone mr-3 text-white"></i>{" "}
-                  +6281252188672
+                  <i className="fas fa-phone mr-3 text-white"></i>+6281252188672
                 </p>
               </p>
               <div className=" mb-4 mb-md-0">
-                <form action="#" className="subscribe">
+                <form action="#" className="subscribe ">
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Enter your e-mail"
                   />
-                  <input
-                    type="submit"
-                    className="btn btn-submits text-white"
-                    value="Send"
-                  />
+                  <button className=" bg-indigo-700 w-25 h-9 rounded text-light font-montserrat absolute top-2 right-2 ">
+                    Send
+                  </button>
                 </form>
               </div>
             </Col>
           </Row>
 
-          <hr className="my-3 bg-secondary " />
+          <hr className="my-3 bg-light h-px " />
 
           <Container className=" pt-0 pb-2">
             <Row className=" d-flex align-items-center">
@@ -116,7 +113,7 @@ const Footer = () => {
                   © 2021 Copyright:
                   <a
                     className="text-white text-decoration-none"
-                    href="https://fahmiali.netlify.app/"
+                    href="https://fahmiali.vercel.app/"
                   >
                     FAL
                   </a>

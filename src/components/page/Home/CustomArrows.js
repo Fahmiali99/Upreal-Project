@@ -38,11 +38,13 @@ export default class CustomArrows extends Component {
           <div className="dekstop-carousel mt-5 mb-5 pt-5 pb-5">
             <div className="text-center title-konsumen">
               <div className="w-75">
-                <h2 className="text-light">Tanggapan Pelanggan</h2>
-                <p className="text-light">
-                  Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang
-                  ditempatkan untuk mendemostrasikan elemen grafis atau
-                  presentasi visual seperti font, tipografi, dan tata letak.
+                <h2 className="text-light font-montserrat">
+                  Tanggapan Pelanggan
+                </h2>
+                <p className="text-light font-montserratFit ">
+                  Masih ragu memesan di Upreal ?
+                  <br />
+                  Berikut tanggapan pelanggan yang pernah memesan di Upreal
                 </p>
               </div>
             </div>
@@ -62,7 +64,9 @@ export default class CustomArrows extends Component {
                         />
                       </div>
                       <Container className=" text-center mt-2">
-                        <h4>{item.name}</h4>
+                        <h4 className=" font-montserrat text-lg">
+                          {item.name}
+                        </h4>
                         <div className="d-flex justify-content-center">
                           <svg
                             className="bi bi-star-fill"

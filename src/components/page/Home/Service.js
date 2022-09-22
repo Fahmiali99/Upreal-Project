@@ -51,8 +51,10 @@ const Service = () => {
   return (
     <div id="layanan" className="bg-dark">
       <Container>
-        <h2 className="text-center pt-5 text-light">Jasa yang tersedia</h2>
-        <p className="text-center pb-5 text-light">
+        <h2 className="text-center pt-5 text-light font-montserrat">
+          Jasa yang tersedia
+        </h2>
+        <p className="text-center pb-5 text-light font-montserratFit">
           Anda dapat memilih jasa yang tersedia di UPREAL
         </p>
         <div className="tz-gallery pb-5 hero w-auto">
@@ -66,14 +68,16 @@ const Service = () => {
                     </Container>
                     <div className="d-flex align-items-center h-100 p-4">
                       <Container className=" text-center ">
-                        <h4 className="pb-2 text-light">{item.name}</h4>
+                        <h4 className=" pb-2 text-light font-montserrat text-xl">
+                          {item.name}
+                        </h4>
                         <Link className="" to={item.href}>
-                          <Button
+                          <button
                             type="button"
-                            class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
+                            className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-sm normal-case"
                           >
                             Order Now
-                          </Button>
+                          </button>
                         </Link>
                       </Container>
                     </div>
