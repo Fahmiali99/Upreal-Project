@@ -55,29 +55,30 @@ const Service = () => {
         <p className="text-center pb-5 text-light">
           Anda dapat memilih jasa yang tersedia di UPREAL
         </p>
-        <div className="tz-gallery pb-5">
-          <div className="w-100 d-flex justify-content-center">
-            <Row className=" row-cols-1 row-cols-md-3 g-4 pb-4">
+        <div className="tz-gallery pb-5 hero w-auto">
+          <div className=" w-11/12 ">
+            <Row className=" row-cols-1 row-cols-md-3 g-4 pb-4 p-2">
               {menu.map((item) => (
-                <div key={item.id}>
-                  <Col>
-                    <div className="lightbox card h-100 rad-home-parent border-light bg-dark">
-                      <Container className=" text-center p-3 bg-secondary rad-home">
-                        <Image src={item.image} alt="" width="50%" />
+                <Col key={item.id}>
+                  <div className="lightbox card h-100 rad-home-parent border-light bg-dark">
+                    <Container className="flex justify-center text-center p-3 bg-secondary rad-home">
+                      <Image src={item.image} alt="" width="50%" />
+                    </Container>
+                    <div className="d-flex align-items-center h-100 p-4">
+                      <Container className=" text-center ">
+                        <h4 className="pb-2 text-light">{item.name}</h4>
+                        <Link className="" to={item.href}>
+                          <Button
+                            type="button"
+                            class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
+                          >
+                            Order Now
+                          </Button>
+                        </Link>
                       </Container>
-                      <div className="d-flex align-items-center h-100 p-4">
-                        <Container className=" text-center ">
-                          <h4 className="pb-2 text-light">{item.name}</h4>
-                          <Link className="" to={item.href}>
-                            <Button type="button" class="btn btn-primary ">
-                              Order Now
-                            </Button>
-                          </Link>
-                        </Container>
-                      </div>
                     </div>
-                  </Col>
-                </div>
+                  </div>
+                </Col>
               ))}
             </Row>
           </div>

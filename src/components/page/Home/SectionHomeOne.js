@@ -4,14 +4,14 @@ import { Row, Col, Container } from "react-bootstrap";
 function SectionBlogOne() {
   return (
     <div>
-      <Container className="py-4">
-        <div className="card bg-transparent py-5 border-secondary  shadow-bg-one">
+      <Container className="py-4 ">
+        <div className="card bg-transparent py-5 border-secondary  ">
           <div className="card-body">
             <Row>
               <Col className="col-4 client-mobile ">
                 <div className="d-flex justify-content-md-center">
                   <div className=" mx-md-0 me-md-5">
-                    <div className="badge badge-circle bg-soft-danger  ">
+                    <div className="badge-circle bg-soft-danger  ">
                       <svg
                         className="bi bi-person-fill"
                         xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function SectionBlogOne() {
               <Col className="col-4 client-mobile border-start">
                 <div className="d-flex justify-content-md-center">
                   <div className="mx-md-0 me-md-5">
-                    <div className="badge badge-circle bg-soft-danger">
+                    <div className="badge-circle bg-soft-danger">
                       <svg
                         className="bi bi-geo-alt-fill"
                         xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ function SectionBlogOne() {
               <Col className="col-4 client-mobile border-start">
                 <div className="d-flex justify-content-md-center">
                   <div className="mx-md-0 me-md-5">
-                    <div className="badge badge-circle bg-soft-danger">
+                    <div className=" badge-circle bg-soft-danger">
                       <svg
                         className="bi bi-hdd-stack-fill"
                         xmlns="http://www.w3.org/2000/svg"

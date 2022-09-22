@@ -10,8 +10,10 @@ const SectionHomeZero = () => {
             <div className="title-inside ">
               <h1 className="text-light ">
                 Butuh desain ?<br />
-                <span className="text-secondary ">Upreal</span> adalah
-                solusinya.
+                <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-900 to-pink-600 ">
+                  Upreal
+                </span>{" "}
+                adalah solusinya.
               </h1>
               <p className="mt-3 mb-4 text-light  ">
                 <span className="fw-medium">Upreal </span> menyediakan banyak
