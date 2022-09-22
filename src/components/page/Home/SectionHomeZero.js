@@ -16,7 +16,8 @@ const SectionHomeZero = () => {
           <div className="col-sm  text-center text-md-start d-flex align-items-center">
             <div className="  ">
               <h1 className=" text-5xl md:text-6xl font-montserrat md:font-montserratFat ">
-                Butuh desain ?<br />
+                Butuh desain?
+                <br />
                 <Upreal /> adalah solusinya.
               </h1>
 
