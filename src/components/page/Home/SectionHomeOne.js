@@ -25,7 +25,9 @@ function SectionBlogOne() {
                     </div>
                   </div>
                   <div className="mx-1">
-                    <p className="fw-bolder text-1000 mb-0 text-light">90+ </p>
+                    <p className=" text-1000 mb-0 text-light font-montserrat">
+                      90+{" "}
+                    </p>
                     <p className="mb-0 text-light fw-light">Happy Clients </p>
                   </div>
                 </div>
@@ -47,7 +49,9 @@ function SectionBlogOne() {
                     </div>
                   </div>
                   <div className="mx-1">
-                    <p className="fw-bolder text-1000 mb-0 text-light">3 </p>
+                    <p className=" text-1000 mb-0 text-light font-montserrat">
+                      3{" "}
+                    </p>
                     <p className="mb-0 text-light fw-light ">Negara</p>
                   </div>
                 </div>
@@ -69,7 +73,7 @@ function SectionBlogOne() {
                     </div>
                   </div>
                   <div className="mx-1">
-                    <p className="fw-bolder text-1000 mb-0 text-light">
+                    <p className=" text-1000 mb-0 text-light font-montserrat">
                       1600+{" "}
                     </p>
                     <p className="mb-0 text-light fw-light">Project Selesai </p>
