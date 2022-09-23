@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const SectionHomeZero = () => {
   function Upreal() {
     return (
-      <span className="  background-animate bg-clip-text text-transparent bg-gradient-to-r from-teal-900 to-slate-700 ...">
+      <span className="  background-animate bg-clip-text text-transparent bg-gradient-to-r from-emerald-100 via-cyan-100 to-sky-50 ...">
         Upreal
       </span>
     );
@@ -15,7 +15,7 @@ const SectionHomeZero = () => {
         <Container className=" d-flex justify-content-center">
           <div className="col-sm  text-center text-md-start d-flex align-items-center">
             <div className="  ">
-              <h1 className=" text-5xl md:text-6xl font-montserrat md:font-montserratFat ">
+              <h1 className=" text-5xl md:text-6xl font-montserrat md:font-montserratFat text-light">
                 Butuh desain?
                 <br />
                 <Upreal /> adalah solusinya.
@@ -28,7 +28,7 @@ const SectionHomeZero = () => {
               </p>
 
               <a className="" href="#layanan">
-                <button className="w-28 h-10 font-montserratFit rounded text-sm btn-dark hover-top btn-glow normal-case bg-gradient-to-r from-teal-900 to-slate-700 ...">
+                <button className=" w-28 h-10 font-montserrat rounded text-sm btn-light hover-top btn-glow normal-case  ...">
                   I'm Order
                 </button>
               </a>

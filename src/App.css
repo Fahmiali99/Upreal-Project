@@ -19,6 +19,10 @@ p {
   color: #6c757d;
 }
 
+.card-profile {
+  background-color: #525252;
+}
+
 .home-image {
   background-image: url("../src/assets/images/home/bg-zero.png");
   width: 100%;

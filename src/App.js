@@ -4,6 +4,7 @@ import { BrowserRouter as Routes, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/page/Home";
+import About from "./components/page/About";
 
 import Logo from "./components/page/Service/Logo/Logo";
 import Flyer from "./components/page/Service/Flyer/Flyer";
@@ -19,12 +20,13 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/Logo" component={Logo}></Route>
-          <Route path="/Flyer" component={Flyer}></Route>
-          <Route path="/Poster" component={Poster}></Route>
-          <Route path="/Instagram" component={Instagram}></Route>
-          <Route path="/Video" component={Video}></Route>
-          <Route path="/More" component={More}></Route>
+          <Route path="/Logo" component={Logo} />
+          <Route path="/Flyer" component={Flyer} />
+          <Route path="/Poster" component={Poster} />
+          <Route path="/Instagram" component={Instagram} />
+          <Route path="/Video" component={Video} />
+          <Route path="/More" component={More} />
+          <Route path="/about" component={About} />
         </Switch>
         <Footer />
       </Routes>

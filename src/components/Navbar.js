@@ -37,17 +37,17 @@ function Navbar() {
               </li>
 
               <li className="nav-item ">
-                <Link className="nav-link navfit mx-md-1" to="/About">
+                <Link className="nav-link navfit mx-md-1" to="/about">
                   About
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link navfit mx-md-1" to="/Blog">
+                <Link className="nav-link navfit mx-md-1" to="/blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link navfit" to="/Contact">
+                <Link className="nav-link navfit" to="/contact">
                   Contact
                 </Link>
               </li>
