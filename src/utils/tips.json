@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "slug": "adobe-xd-vs-figma",
+    "judul": "Adobe XD vs Figma",
+    "tanggal": "4 Sep 2022",
+    "thumbnail": "gambar-satu.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "PS",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "XD",
+        "color": "#FFE9A0"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "efektif-menggunakan-vegas-or-adobe-premiere-pro",
+    "judul": "Efektif menggunakan Vegas or Adobe Premiere Pro?",
+    "tanggal": "5 Sep 2022",
+    "thumbnail": "gambar-dua.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "XD",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "Figma",
+        "color": "#FFE9A0"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "yuk-belajar-design-thinking",
+    "judul": "Yuk, Belajar Design Thinking",
+    "tanggal": "7 Sep 2022",
+    "thumbnail": "gambar-tiga.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "AI",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "XD",
+        "color": "#FFE9A0"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "jenis-font-terbaik-untuk-desain-grafis",
+    "judul": "Jenis Font Terbaik untuk Desain Grafis",
+    "tanggal": "8 Sep 2022",
+    "thumbnail": "gambar-empat.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "PS",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "PR",
+        "color": "#FFE9A0"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "illustration-bersama-adobe-illustrator",
+    "judul": "Illustration bersama Adobe Illustrator",
+    "tanggal": "10 Sep 2022",
+    "thumbnail": "gambar-lima.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "PS",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "Figma",
+        "color": "#FFE9A0"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "bangun-branding-design-untuk-marketing-bisnis",
+    "judul": "Bangun Branding Design untuk Marketing Bisnis",
+    "tanggal": "11 Sep 2022",
+    "thumbnail": "gambar-enam.png",
+    "category": [
+      {
+        "id": 1,
+        "title": "Figma",
+        "color": "#ABD9FF"
+      },
+      {
+        "id": 2,
+        "title": "XD",
+        "color": "#FFE9A0"
+      }
+    ]
+  }
+]

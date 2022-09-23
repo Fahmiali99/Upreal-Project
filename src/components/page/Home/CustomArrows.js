@@ -7,8 +7,6 @@ import RightArrow from "../../../assets/right-arrow.svg";
 import { Container, Image } from "react-bootstrap";
 import reviewData from "../../../utils/review.json";
 
-console.log(reviewData);
-
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
 );

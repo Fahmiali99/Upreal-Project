@@ -17,9 +17,9 @@ function Profile() {
           succeed is always to try just one more time.
         </p>
         <div className="w-full flex justify-center py-10">
-          <div class=" w-5/6 sm:w-3/6 md:w-2/6 rounded-xl p-3 card-profile">
+          <div className=" w-5/6 sm:w-3/6 md:w-2/6 rounded-xl p-3 card-profile">
             <div className="py-3">
-              <div class="card-body items-center text-center ">
+              <div className="card-body items-center text-center ">
                 <figure class="">
                   <img
                     src={Founder}
@@ -28,7 +28,7 @@ function Profile() {
                     className="rounded-full "
                   />
                 </figure>
-                <h4 class="font-montserrat text-light">Mekki Patria</h4>
+                <h4 className="font-montserrat text-light">Mekki Patria</h4>
                 <a href="https://www.instagram.com/mekkipat/">
                   <BsInstagram className=" text-xl text-light" />
                 </a>

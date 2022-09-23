@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/page/Home";
 import About from "./components/page/About";
+import Blog from "./components/page/Blog";
 
 import Logo from "./components/page/Service/Logo/Logo";
 import Flyer from "./components/page/Service/Flyer/Flyer";
@@ -12,6 +13,7 @@ import Poster from "./components/page/Service/Poster/Poster";
 import Instagram from "./components/page/Service/Instagram/Instagram";
 import Video from "./components/page/Service/Video/Video";
 import More from "./components/page/Service/More/More";
+import Artikel from "./components/page/Blog/Body/Detail";
 
 export default function App() {
   return (
@@ -27,6 +29,8 @@ export default function App() {
           <Route path="/Video" component={Video} />
           <Route path="/More" component={More} />
           <Route path="/about" component={About} />
+          <Route exact path="/blog" component={Blog} />
+          <Route path="/blog/:slug" component={Artikel} />
         </Switch>
         <Footer />
       </Routes>
