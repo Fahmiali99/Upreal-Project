@@ -6,8 +6,10 @@ function Profile() {
   return (
     <div className=" ">
       <div className=" text-center py-14">
-        <h6 className="text-light font-montserrat">DON'T THINK, JUST DO!</h6>
-        <h1 className="background-animate bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-green-50 to-slate-100 ... font-montserratFat pt-6">
+        <h6 className="text-md text-light font-montserrat">
+          DON'T THINK, JUST DO!
+        </h6>
+        <h1 className=" md:text-5xl pb-2 background-animate bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-green-50 to-slate-100 ... font-montserratFat pt-6">
           FOUNDER
         </h1>
         <p className="text-light font-montserratFit mr-4 ml-4">
