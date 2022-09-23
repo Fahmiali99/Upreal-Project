@@ -15,7 +15,7 @@ const SectionHomeZero = () => {
         <Container className=" d-flex justify-content-center">
           <div className="col-sm  text-center text-md-start d-flex align-items-center">
             <div className="  ">
-              <h1 className=" text-5xl md:text-6xl font-montserrat md:font-montserratFat text-light">
+              <h1 className=" text-4xl md:text-6xl font-montserrat md:font-montserratFat text-light">
                 Butuh desain?
                 <br />
                 <Upreal /> adalah solusinya.
