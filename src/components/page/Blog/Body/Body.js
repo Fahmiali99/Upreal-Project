@@ -25,9 +25,9 @@ const Body = () => {
         </p>
         <div className="ml-3 mr-3">
           <input
-            type="search"
+            type="input"
             placeholder="Find something ..."
-            className="input w-full max-w-xs bg-light font-montserrat "
+            className="input w-full max-w-lg bg-light font-montserrat outline-none"
             onChange={filterData}
           />
         </div>
