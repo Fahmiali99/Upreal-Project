@@ -16,7 +16,7 @@ const Body = () => {
   }
 
   return (
-    <div className="pb-5">
+    <div className=" md:pb-5 md:pt-1">
       <div className="text-center py-16 ">
         <h1 className="text-light font-montserratFat">Blog Design</h1>
         <p className="text-light font-montserratFit">
