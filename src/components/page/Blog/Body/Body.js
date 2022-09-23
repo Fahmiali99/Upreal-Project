@@ -17,17 +17,17 @@ const Body = () => {
 
   return (
     <div>
-      <div className="text-center py-16 ">
+      <div className="text-center py-20 ">
         <h1 className="text-light font-montserratFat">Blog Design</h1>
         <p className="text-light  font-montserratFit">
           Beberapa referensi dan manfaat menggunakan tools design bersama
           Upreal.
         </p>
-        <div className="ml-3 mr-3">
+        <div className="ml-3 mr-3 pt-3">
           <input
             type="input"
             placeholder="Find something ..."
-            className="input w-full max-w-xs bg-light font-montserrat outline-hidden"
+            className="input w-full max-w-xs md:max-w-lg bg-light font-montserrat  focus:outline-none"
             onChange={filterData}
           />
         </div>
