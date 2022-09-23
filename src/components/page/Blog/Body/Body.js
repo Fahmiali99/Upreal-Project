@@ -16,14 +16,14 @@ const Body = () => {
   }
 
   return (
-    <div>
-      <div className="text-center py-20 ">
+    <div className="pb-5">
+      <div className="text-center py-16 ">
         <h1 className="text-light font-montserratFat">Blog Design</h1>
-        <p className="text-light  font-montserratFit">
+        <p className="text-light font-montserratFit">
           Beberapa referensi dan manfaat menggunakan tools design bersama
           Upreal.
         </p>
-        <div className="ml-3 mr-3 pt-3">
+        <div className="ml-3 mr-3 pt-2">
           <input
             type="input"
             placeholder="Find something ..."
