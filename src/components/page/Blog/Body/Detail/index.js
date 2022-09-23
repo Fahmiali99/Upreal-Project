@@ -12,8 +12,12 @@ function Artikel() {
       <section className="padding-y-xxl position-relative z-index-1 pt-3 pb-5">
         <div className="container max-width-adaptive-sm position-relative z-index-2">
           <div className="text-component margin-bottom-sm pt-5 ">
-            <h1 className="text-light">{tipsSelected.judul}</h1>
-            <p className="text-light">Upreal / {tipsSelected.tanggal}</p>
+            <h2 className="text-light font-montserratFat">
+              {tipsSelected.judul}
+            </h2>
+            <p className="text-light font-montserratFit text-sm md:text-md">
+              Upreal / {tipsSelected.tanggal}
+            </p>
           </div>
         </div>
 
@@ -27,9 +31,9 @@ function Artikel() {
         </div>
 
         <div className="container pt-4 ">
-          <p className="text-light">Hallo guys.</p>
+          <p className="text-light font-montserrat">Hallo guys.</p>
 
-          <p className="text-light">
+          <p className="text-light font-montserratFit">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
             harum quasi deserunt earum sapiente laboriosam provident similique
             nulla doloribus ratione fuga corporis repellendus nobis aliquid?
@@ -45,7 +49,7 @@ function Artikel() {
             temporibus?
           </p>
 
-          <p className="text-light">
+          <p className="text-light font-montserratFit">
             Rem architecto totam iusto ratione! Corrupti cupiditate similique,
             perspiciatis et error quasi molestias id, ab facere eligendi qui
             dignissimos dolores nisi voluptate voluptatum eaque excepturi odit
@@ -54,7 +58,7 @@ function Artikel() {
             laboriosam!
           </p>
 
-          <p className="text-light">
+          <p className="text-light font-montserratFit">
             Nisi doloremque dicta sequi inventore ut cupiditate dolores
             consequatur dolor provident hic nihil assumenda aspernatur vero
             voluptatum tempore, numquam consectetur obcaecati ipsam commodi cum
