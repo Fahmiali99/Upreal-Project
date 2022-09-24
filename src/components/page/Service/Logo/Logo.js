@@ -1,23 +1,23 @@
-import emailjs from "emailjs-com";
 import React from "react";
+import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Logo() {
-  function sendEmail(e) {
-    e.preventDefault();
+  const [gmail, setGmail] = useState({
+    nama: "",
+    email: "",
+    message: "",
+    emailStatus: "",
+  });
 
-    emailjs
-      .sendForm("service_logo", "logo", e.target, "user_5bDEXDZfZdPTj9D4CSF7V")
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  }
+  const handleChange = (e) => {
+    setGmail({ ...gmail, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(gmail);
+  };
 
   return (
     <div className="pt-5">
@@ -33,37 +33,42 @@ export default function Logo() {
       </div>
 
       <Container>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={handleSubmit}>
           <Row className="row pt-5 pb-5 ">
             <Col className="col-9 form-group mx-auto">
               <input
                 type="text"
+                onChange={handleChange}
+                value={gmail.nama}
                 className="form-control"
                 placeholder="Name"
-                name="name"
+                name="nama"
                 required
                 autoFocus
               />
             </Col>
             <Col className="col-9 form-group pt-2 mx-auto">
               <input
-                type="email"
+                onChange={handleChange}
+                value={gmail.email}
+                type="text"
                 className="form-control"
                 placeholder="Email Address"
                 name="email"
                 required
               />
             </Col>
-            <Col className="col-9 form-group pt-2 mx-auto">
+            {/* <Col className="col-9 form-group pt-2 mx-auto">
               <input
-                type="nummber"
+                type="text"
                 className="form-control"
                 placeholder="Whatsapp / Telp"
-                name="nummber"
+                name="phone"
+              
                 required
               />
-            </Col>
-            <Col className="col-9 form-group pt-2 mx-auto">
+            </Col> */}
+            {/* <Col className="col-9 form-group pt-2 mx-auto">
               <input
                 type="text"
                 className="form-control"
@@ -71,11 +76,14 @@ export default function Logo() {
                 name="subject"
                 required
               />
-            </Col>
+            </Col> */}
             <Col className="col-9 form-group pt-2 mx-auto">
               <textarea
+                onChange={handleChange}
+                value={gmail.message}
+                type="text"
                 className="form-control"
-                id=""
+                id="message"
                 cols="30"
                 rows="8"
                 placeholder="Your message"
@@ -87,7 +95,7 @@ export default function Logo() {
               <input
                 type="submit"
                 className="btn btn-outline-primary"
-                value="Send Message"
+                value="submit"
               ></input>
             </Col>
           </Row>
