@@ -38,7 +38,7 @@ const Body = () => {
             const data = item.category;
             return (
               <div
-                key={item.slug}
+                key={`${item.id} ${item.slug}`}
                 className=" w-full bg-base-100 shadow-xl bg-light rounded-xl"
               >
                 <Link
@@ -60,6 +60,7 @@ const Body = () => {
 
                     <div className="flex justify-end">
                       {data.map((tips) => (
+                        // eslint-disable-next-line react/jsx-key
                         <div
                           className="border badge-outline border-none rounded-lg ml-1 mr-1 pl-2 pr-2 color"
                           style={{ background: `${tips.color}` }}

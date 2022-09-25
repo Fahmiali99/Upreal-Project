@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -7,6 +9,7 @@ import RightArrow from "../../../assets/right-arrow.svg";
 import { Container, Image } from "react-bootstrap";
 import reviewData from "../../../utils/review.json";
 
+// eslint-disable-next-line react/prop-types
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
   <img src={LeftArrow} alt="prevArrow" {...props} />
 );
@@ -48,7 +51,7 @@ export default class LazyLoad extends Component {
             </div>
             <Slider {...settings} className="arr ">
               {reviewData.map((item) => (
-                <div>
+                <div key={item.id}>
                   <div className="m-2">
                     <div className="container card">
                       <div className="d-flex justify-content-center">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import imgsatu from "../../../assets/images/home/fa1.png";
 import imgdua from "../../../assets/images/home/fa2.png";
 import imgtiga from "../../../assets/images/home/fa3.png";
