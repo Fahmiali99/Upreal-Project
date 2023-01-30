@@ -7,12 +7,12 @@ import Home from "./components/page/Home";
 import About from "./components/page/About";
 import Blog from "./components/page/Blog";
 
-import Logo from "./components/page/Service/Logo/Logo";
-import Flyer from "./components/page/Service/Flyer/Flyer";
-import Poster from "./components/page/Service/Poster/Poster";
-import Instagram from "./components/page/Service/Instagram/Instagram";
-import Video from "./components/page/Service/Video/Video";
-import More from "./components/page/Service/More/More";
+// import Logo from "./components/page/Service/Logo/Logo";
+// import Flyer from "./components/page/Service/Flyer/Flyer";
+// import Poster from "./components/page/Service/Poster/Poster";
+// import Instagram from "./components/page/Service/Instagram/Instagram";
+// import Video from "./components/page/Service/Video/Video";
+// import More from "./components/page/Service/More/More";
 import Artikel from "./components/page/Blog/Body/Detail";
 
 export default function App() {
@@ -22,12 +22,12 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/Logo" component={Logo} />
+          {/* <Route path="/Logo" component={Logo} />
           <Route path="/Flyer" component={Flyer} />
           <Route path="/Poster" component={Poster} />
           <Route path="/Instagram" component={Instagram} />
           <Route path="/Video" component={Video} />
-          <Route path="/More" component={More} />
+          <Route path="/More" component={More} /> */}
           <Route path="/about" component={About} />
           <Route exact path="/blog" component={Blog} />
           <Route path="/blog/:slug" component={Artikel} />
